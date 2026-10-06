@@ -1,0 +1,58 @@
+{
+  "id": "identity",
+  "name": "Identity / self-identity",
+  "aliases": [
+    "self-identity",
+    "behavioral identity",
+    "exercise identity",
+    "health identity",
+    "identity-based motivation"
+  ],
+  "definition": "The extent to which a behavior, role, or goal is represented as part of the self-concept. This folder keeps identity constructs distinct from habit and intention while documenting overlaps.",
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "identity-intention-2010",
+      "layer": "association",
+      "behavior_domain": "multiple",
+      "design": "meta-analysis",
+      "effect_metric": "r",
+      "effect_value": 0.47,
+      "ci_low": null,
+      "ci_high": null,
+      "k": 40,
+      "n": 11607,
+      "source_ids": ["rise2010"],
+      "notes": "Self-identity association with behavioral intention; this is not a direct identity-behavior causal estimate."
+    },
+    {
+      "id": "identity-habit-2025",
+      "layer": "association",
+      "behavior_domain": "health behaviors",
+      "design": "systematic review and three-level meta-analysis",
+      "effect_metric": "r",
+      "effect_value": 0.55,
+      "ci_low": null,
+      "ci_high": null,
+      "k": null,
+      "n": 13340,
+      "source_ids": ["zhu2025"],
+      "notes": "Identity-habit association, not identity-behavior. Preserved because it is frequently misinterpreted."
+    },
+    {
+      "id": "identity-pa-intervention-2025",
+      "layer": "causal",
+      "behavior_domain": "physical activity",
+      "design": "meta-analysis of experimental and quasi-experimental interventions",
+      "effect_metric": "Hedges_g",
+      "effect_value": 0.18,
+      "ci_low": null,
+      "ci_high": null,
+      "k": 40,
+      "n": 4939,
+      "source_ids": ["identityintervention2025"],
+      "notes": "Effect on identity itself. Behavior changed in the same intervention literature, but this estimate alone does not establish identity as the mediator."
+    }
+  ]
+}

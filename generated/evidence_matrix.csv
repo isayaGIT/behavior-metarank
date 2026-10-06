@@ -1,0 +1,4 @@
+mechanism_id,mechanism_name,id,layer,behavior_domain,design,effect_metric,effect_value,ci_low,ci_high,k,n,source_ids,notes
+identity,Identity / self-identity,identity-intention-2010,association,multiple,meta-analysis,r,0.47,,,40,11607,rise2010,Self-identity association with behavioral intention; this is not a direct identity-behavior causal estimate.
+identity,Identity / self-identity,identity-habit-2025,association,health behaviors,systematic review and three-level meta-analysis,r,0.55,,,,13340,zhu2025,"Identity-habit association, not identity-behavior. Preserved because it is frequently misinterpreted."
+identity,Identity / self-identity,identity-pa-intervention-2025,causal,physical activity,meta-analysis of experimental and quasi-experimental interventions,Hedges_g,0.18,,,40,4939,identityintervention2025,"Effect on identity itself. Behavior changed in the same intervention literature, but this estimate alone does not establish identity as the mediator."

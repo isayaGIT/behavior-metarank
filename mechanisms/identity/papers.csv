@@ -1,0 +1,4 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+rise2010,The role of self-identity in the theory of planned behavior: A meta-analysis,2010,,https://onlinelibrary.wiley.com/doi/10.1111/j.1559-1816.2010.00611.x,meta-analysis,association,multiple,r,0.47,,,40,11607,Identity-intention association
+zhu2025,The relationship between habit and identity in health behaviors: A systematic review and three-level meta-analysis,2025,10.1111/aphw.70017,https://pubmed.ncbi.nlm.nih.gov/40105110/,meta-analysis,association,health behaviors,r,0.55,,,,13340,Identity-habit association; not direct behavior
+identityintervention2025,Meta-analysis of interventions targeting physical-activity identity,2025,,https://pubmed.ncbi.nlm.nih.gov/40008714/,meta-analysis,causal,physical activity,Hedges_g,0.18,,,40,4939,Estimate is change in identity

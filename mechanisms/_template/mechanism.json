@@ -1,0 +1,24 @@
+{
+  "id": "example-mechanism",
+  "name": "Example Mechanism",
+  "aliases": [],
+  "definition": "Operational definition used for this evidence synthesis.",
+  "status": "draft",
+  "updated_at": "YYYY-MM-DD",
+  "syntheses": [
+    {
+      "id": "example-association",
+      "layer": "association",
+      "behavior_domain": "general",
+      "design": "meta-analysis",
+      "effect_metric": "r",
+      "effect_value": null,
+      "ci_low": null,
+      "ci_high": null,
+      "k": null,
+      "n": null,
+      "source_ids": [],
+      "notes": ""
+    }
+  ]
+}
