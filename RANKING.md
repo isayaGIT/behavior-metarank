@@ -2,6 +2,8 @@
 
 > This file is generated automatically by scripts/rank.py from the current mechanism evidence. Do not edit it by hand.
 
+Need help reading the coefficients or understanding each mechanism? See [中文解读](RANKING_GUIDE.zh-CN.md) or [English guide](RANKING_GUIDE.en.md).
+
 Current coverage: **23 mechanisms**, **27 syntheses**, **23 ranking-eligible direct-behavior syntheses**, and **4 excluded syntheses**.
 
 ## How to read this

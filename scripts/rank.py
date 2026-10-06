@@ -114,6 +114,8 @@ lines = [
     "",
     "> This file is generated automatically by scripts/rank.py from the current mechanism evidence. Do not edit it by hand.",
     "",
+    "Need help reading the coefficients or understanding each mechanism? See [中文解读](RANKING_GUIDE.zh-CN.md) or [English guide](RANKING_GUIDE.en.md).",
+    "",
     f"Current coverage: **{mechanism_count} mechanisms**, **{len(rows)} syntheses**, **{len(eligible)} ranking-eligible direct-behavior syntheses**, and **{len(excluded)} excluded syntheses**.",
     "",
     "## How to read this",

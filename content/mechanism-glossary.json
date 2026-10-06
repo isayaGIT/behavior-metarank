@@ -1,0 +1,186 @@
+{
+  "accessibility": {
+    "en_name": "Accessibility / convenience",
+    "en_plain": "Make the behavior easier to carry out by removing practical barriers such as distance, scheduling, delivery friction, or service availability.",
+    "en_caution": "This is about practical access, not price. A service can be affordable but still difficult to reach.",
+    "zh_name": "可及性 / 便利性",
+    "zh_plain": "通过减少距离、预约、配送、服务可获得性等现实阻碍，让目标行为更容易真正做出来。",
+    "zh_caution": "它讲的是“做不做得到、方不方便”，不是“贵不贵”。一个服务可以很便宜，但仍然很难获得。"
+  },
+  "affordability": {
+    "en_name": "Affordability",
+    "en_plain": "Reduce the money someone must spend to perform a behavior or obtain a service.",
+    "en_caution": "Affordability reduces the cost of acting; it is different from paying someone a reward for acting.",
+    "zh_name": "可负担性",
+    "zh_plain": "降低执行某个行为或获得某项服务需要付出的直接金钱成本。",
+    "zh_caution": "它是“让行动更便宜”，不是“做了以后给你钱”；后者属于 financial incentives。"
+  },
+  "anticipated-regret": {
+    "en_name": "Anticipated regret",
+    "en_plain": "Before deciding, imagine how much you might regret doing—or not doing—the behavior later.",
+    "en_caution": "The current MetaRank evidence is correlational, so it shows association rather than proven causal leverage.",
+    "zh_name": "预期后悔",
+    "zh_plain": "在做决定之前，先想到未来如果做了或没做这件事，自己可能会有多后悔。",
+    "zh_caution": "MetaRank 目前收录的是相关性证据，因此它说明“有关联”，还不能直接说预期后悔本身造成了行为改变。"
+  },
+  "autonomous-motivation": {
+    "en_name": "Autonomous motivation",
+    "en_plain": "Act because the goal feels personally chosen, meaningful, or aligned with your values—not mainly because of pressure.",
+    "en_caution": "This is motivation quality, not simply how strongly you intend to act.",
+    "zh_name": "自主性动机",
+    "zh_plain": "因为这件事是自己认同、主动选择、觉得有意义，所以愿意行动，而不是主要因为外界或内在压力逼着自己做。",
+    "zh_caution": "它强调的是“为什么想做”的动机质量，不等同于单纯的 intention 强弱。"
+  },
+  "behavioral-attitudes": {
+    "en_name": "Behavioral attitudes",
+    "en_plain": "How positively or negatively a person evaluates doing the specific behavior—whether it seems good, useful, worthwhile, pleasant, or harmful.",
+    "en_caution": "This is attitude toward the behavior itself, not a broad attitude toward a person, institution, or topic.",
+    "zh_name": "行为态度",
+    "zh_plain": "一个人觉得“做这个具体行为”到底是好还是坏、值得还是不值得、有益还是有害。",
+    "zh_caution": "这里指的是对具体行为本身的评价，不是对某个人、机构或话题的一般态度。"
+  },
+  "default-options": {
+    "en_name": "Default options",
+    "en_plain": "Preselect one option so it happens automatically unless the person actively changes it.",
+    "en_caution": "Defaults are a choice-architecture intervention. Their effect can depend heavily on context and on what the default signals.",
+    "zh_name": "默认选项",
+    "zh_plain": "预先替人选好一个选项；如果对方不主动修改，就自动采用这个选择。",
+    "zh_caution": "默认选项属于 choice architecture。效果会受到场景、默认选项代表的含义以及退出成本影响。"
+  },
+  "education-information": {
+    "en_name": "Education / information provision",
+    "en_plain": "Give people facts, explanations, or educational material that may help them make or carry out a behavioral choice.",
+    "en_caution": "An education intervention is not the same as proving that measured knowledge is the causal mediator.",
+    "zh_name": "教育 / 信息提供",
+    "zh_plain": "给人提供事实、解释或教育材料，让其更了解目标行为以及相关选择。",
+    "zh_caution": "“提供信息的干预有效”不等于已经证明“知识增加”就是导致行为改变的那个中介机制。"
+  },
+  "fear-appeals": {
+    "en_name": "Fear appeals",
+    "en_plain": "Use messages that deliberately emphasize threat or frightening consequences in order to motivate action.",
+    "en_caution": "The current effect in MetaRank combines attitudes, intentions, and behavior, so it is excluded from the direct-behavior leaderboard.",
+    "zh_name": "恐惧诉求",
+    "zh_plain": "通过强调威胁、危险或令人害怕的后果，试图推动人采取行动。",
+    "zh_caution": "MetaRank 当前这条效应把态度、意图和行为混合在一起，所以没有进入 direct-behavior 排名。"
+  },
+  "financial-incentives": {
+    "en_name": "Financial incentives",
+    "en_plain": "Offer money or another material financial reward contingent on performing the target behavior or reaching an outcome.",
+    "en_caution": "Effects may weaken after incentives stop, and OR/RR estimates should not be compared numerically with d or r.",
+    "zh_name": "金钱激励",
+    "zh_plain": "把金钱或具有货币价值的奖励与目标行为或目标结果绑定：做到了，就获得奖励。",
+    "zh_caution": "激励停止以后效果可能减弱；而且 OR/RR 不能直接和 d 或 r 比数字大小。"
+  },
+  "goal-setting": {
+    "en_name": "Goal setting",
+    "en_plain": "Specify a concrete target or standard to work toward, such as a behavioral amount, frequency, or outcome.",
+    "en_caution": "A goal says what you want to achieve; it does not by itself specify the cue-response plan used in implementation intentions.",
+    "zh_name": "目标设定",
+    "zh_plain": "明确一个要达到的具体标准，例如行为次数、数量、时间或结果目标。",
+    "zh_caution": "Goal setting 主要回答“我要达到什么”；它不等于 implementation intention 那种“如果 X 出现，我就做 Y”的执行规则。"
+  },
+  "habit": {
+    "en_name": "Habit / behavioral automaticity",
+    "en_plain": "A behavior becomes increasingly automatic because the same response has been repeated in recurring contexts or cues.",
+    "en_caution": "The current rank is association-only; habit may both influence behavior and partly reflect repeated past behavior.",
+    "zh_name": "习惯 / 行为自动化",
+    "zh_plain": "同一个行为在相似情境或线索下反复发生后，逐渐变成不用太多思考就会自动触发的反应。",
+    "zh_caution": "目前进入的是相关性榜单。习惯可能推动未来行为，但习惯强度本身也可能反映过去已经重复过很多次的行为。"
+  },
+  "identity": {
+    "en_name": "Identity / self-identity",
+    "en_plain": "Represent a behavior, role, or goal as part of who you are—for example, “I am someone who exercises” rather than only “I want to exercise.”",
+    "en_caution": "MetaRank currently has identity-to-intention, identity-to-habit, and intervention-to-identity evidence, but no eligible direct identity-to-behavior effect in the leaderboard yet.",
+    "zh_name": "身份认同 / 自我身份",
+    "zh_plain": "把某种行为、角色或目标纳入“我是谁”的自我概念，例如不是只说“我想运动”，而是“我是一个会运动的人”。",
+    "zh_caution": "目前仓库里有 identity→intention、identity→habit，以及 intervention→identity 的证据，但还没有一条合格的 identity→behavior 直接效应进入榜单。"
+  },
+  "implementation-intentions": {
+    "en_name": "Implementation intentions",
+    "en_plain": "Create an if–then rule that links a specific cue to a specific response: “If X happens, then I will do Y.”",
+    "en_caution": "This is more specific than ordinary intention; it programs when or under what cue the behavior should occur.",
+    "zh_name": "执行意图 / If–Then 计划",
+    "zh_plain": "把一个具体线索和一个具体行动绑定成规则：“如果 X 出现，那么我就做 Y。”",
+    "zh_caution": "它比普通 intention 更具体：不仅想做，而且提前规定在什么线索出现时执行什么动作。"
+  },
+  "intentions": {
+    "en_name": "Behavioral intentions",
+    "en_plain": "A conscious commitment or stated readiness to perform a behavior.",
+    "en_caution": "Wanting or intending to act is not identical to acting; MetaRank keeps intention effects separate from implementation-intention effects.",
+    "zh_name": "行为意图",
+    "zh_plain": "一个人有意识地表达“我准备做、我打算做某个行为”的承诺或准备程度。",
+    "zh_caution": "想做不等于真的做。MetaRank 会把普通 intention 与 implementation intention 分开。"
+  },
+  "perceived-competence": {
+    "en_name": "Perceived competence",
+    "en_plain": "The feeling that you are effective and capable at carrying out the target behavior.",
+    "en_caution": "It overlaps with self-efficacy but comes from a different theoretical tradition; MetaRank does not pool them automatically.",
+    "zh_name": "感知胜任感",
+    "zh_plain": "一个人觉得自己在执行某个目标行为时是有能力、有效率、做得到的。",
+    "zh_caution": "它与 self-efficacy 很接近，但理论来源和测量传统并不完全相同，因此 MetaRank 暂时不把两者直接合并。"
+  },
+  "prompts-reminders": {
+    "en_name": "Prompts and reminders",
+    "en_plain": "Place an external cue at the right moment so the intended behavior comes back into attention.",
+    "en_caution": "A reminder changes salience at the moment of action; it is different from teaching new information or creating an internal if–then plan.",
+    "zh_name": "提示与提醒",
+    "zh_plain": "在行动机会出现时给一个外部线索，让目标行为重新进入注意力，例如通知、提示牌、短信提醒。",
+    "zh_caution": "提醒主要改变当下的注意力和显著性；它不同于教育信息，也不同于自己预先写好的 if–then 计划。"
+  },
+  "punishment": {
+    "en_name": "Punishment",
+    "en_plain": "Attach a negative consequence to noncooperation or an undesired behavior.",
+    "en_caution": "The current high-ranked estimate comes from experimental social dilemmas; it should not be generalized directly to legal punishment or everyday self-punishment.",
+    "zh_name": "惩罚",
+    "zh_plain": "把负面后果与不合作或不希望出现的行为绑定，使该行为需要付出代价。",
+    "zh_caution": "当前排名较高的证据主要来自实验室 social dilemma；不能直接外推到法律处罚，更不能理解成“对自己越狠越有效”。"
+  },
+  "risk-appraisal": {
+    "en_name": "Risk appraisal",
+    "en_plain": "Assess how likely and how serious a threat or harmful outcome seems before deciding what to do.",
+    "en_caution": "Risk appraisal is the psychological appraisal itself; fear appeals are messages designed to change such appraisals or emotions.",
+    "zh_name": "风险评估",
+    "zh_plain": "在行动前判断某种风险有多可能发生、后果有多严重，以及这个风险对自己意味着什么。",
+    "zh_caution": "Risk appraisal 是人的心理判断；fear appeal 是一种试图改变这种判断或情绪的沟通干预，两者不是同一个东西。"
+  },
+  "self-efficacy": {
+    "en_name": "Self-efficacy",
+    "en_plain": "Believe that you can successfully execute the specific actions required by the target behavior.",
+    "en_caution": "Self-efficacy is task-specific capability belief, not generic self-esteem or positive thinking.",
+    "zh_name": "自我效能",
+    "zh_plain": "相信自己有能力把目标行为需要的具体动作真正执行出来。",
+    "zh_caution": "Self-efficacy 是针对具体任务的能力信念，不等于一般性的自信、自尊或“积极想一想”。"
+  },
+  "self-monitoring": {
+    "en_name": "Self-monitoring of behavior",
+    "en_plain": "Track or record your own behavior so that what you are actually doing becomes visible and can be regulated.",
+    "en_caution": "Many self-monitoring interventions are multicomponent, so the causal effect of self-monitoring alone can be less certain than the trial-level intervention effect.",
+    "zh_name": "行为自我监测",
+    "zh_plain": "记录、观察自己的真实行为，让“我到底做了多少、什么时候做”变得可见，从而便于调整。",
+    "zh_caution": "很多 self-monitoring 研究同时包含其他干预成分，所以随机试验能证明整个方案有效，不一定能完全拆出“记录本身”的独立因果效应。"
+  },
+  "social-norms": {
+    "en_name": "Social norms",
+    "en_plain": "Perceptions about what other people do or what other people approve of.",
+    "en_caution": "Descriptive norms (what others do) and injunctive norms (what others approve) may differ and may later be split into separate MetaRank mechanisms.",
+    "zh_name": "社会规范",
+    "zh_plain": "一个人对“别人通常怎么做”或者“别人认为应该怎么做”的感知。",
+    "zh_caution": "描述性规范（别人实际怎么做）和命令性规范（别人赞成什么）可能并不相同，未来可能会在 MetaRank 里拆成两个机制。"
+  },
+  "social-support": {
+    "en_name": "Social support",
+    "en_plain": "Receive practical, informational, emotional, or tangible help from other people that makes the target behavior easier to carry out.",
+    "en_caution": "The current causal estimate is domain-specific to HIV treatment adherence, so it is not a universal social-support effect.",
+    "zh_name": "社会支持",
+    "zh_plain": "从他人那里得到实际帮助、信息、情绪支持或物质资源，让目标行为更容易完成。",
+    "zh_caution": "当前因果估计来自 HIV 治疗依从性，不能直接当成“社会支持对所有行为都有同样大小的效果”。"
+  },
+  "trust-healthcare-professional": {
+    "en_name": "Trust in healthcare professionals",
+    "en_plain": "Trust that a clinician or healthcare professional is competent, honest, and acting in the patient's interest.",
+    "en_caution": "Current evidence is correlational and specific to clinical relationships; it is not the same as generalized or institutional trust.",
+    "zh_name": "对医疗专业人员的信任",
+    "zh_plain": "相信医生或其他医疗专业人员有能力、诚实，并且会以患者利益为出发点。",
+    "zh_caution": "当前是相关性证据，而且针对临床关系；它不等于一般社会信任或对机构制度的信任。"
+  }
+}
