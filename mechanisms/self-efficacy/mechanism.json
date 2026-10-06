@@ -1,0 +1,37 @@
+{
+  "id": "self-efficacy",
+  "name": "Self-efficacy",
+  "family": "capability-beliefs",
+  "aliases": [
+    "self efficacy",
+    "efficacy beliefs",
+    "confidence to perform behavior"
+  ],
+  "definition": "Belief in one's capability to organize and execute the actions required to perform a target behavior.",
+  "related_mechanisms": [
+    "perceived-competence",
+    "intentions",
+    "autonomous-motivation"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "self-efficacy-change-behavior-2016",
+      "layer": "causal",
+      "outcome": "behavior",
+      "behavior_domain": "health behaviors",
+      "design": "meta-analysis of experimental tests that successfully changed the target construct",
+      "effect_metric": "d",
+      "effect_value": 0.47,
+      "ci_low": null,
+      "ci_high": null,
+      "k": null,
+      "n": null,
+      "source_ids": [
+        "sheeran2016"
+      ],
+      "notes": "Kept separate from perceived competence despite conceptual overlap."
+    }
+  ]
+}

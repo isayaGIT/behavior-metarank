@@ -39,3 +39,7 @@ The build fails on invalid mechanism folders so generated outputs do not silentl
 Copy mechanisms/_template/ to mechanisms/<mechanism-id>/, fill in the files, then run the build.
 
 A new mechanism becomes part of the master evidence base because its folder exists and validates, not because it was pre-registered in a candidate list.
+
+## Construct clustering
+
+Mechanism folders are clustered using explicit rules in protocol/construct-clustering.md. Higher-order frameworks such as the TDF are used as crosswalks, not as automatic pooling instructions. Research anchors and prior-art sources are tracked in research/clustering-sources.csv.

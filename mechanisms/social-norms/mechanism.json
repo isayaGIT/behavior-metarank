@@ -1,0 +1,38 @@
+{
+  "id": "social-norms",
+  "name": "Social norms",
+  "family": "social-influence",
+  "aliases": [
+    "norms",
+    "injunctive norms",
+    "descriptive norms",
+    "subjective norms",
+    "perceived norms"
+  ],
+  "definition": "Perceived or communicated standards about what others do or approve.",
+  "related_mechanisms": [
+    "behavioral-attitudes",
+    "intentions"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "norm-change-behavior-2016",
+      "layer": "causal",
+      "outcome": "behavior",
+      "behavior_domain": "health behaviors",
+      "design": "meta-analysis of experimental tests that successfully changed the target construct",
+      "effect_metric": "d",
+      "effect_value": 0.36,
+      "ci_low": null,
+      "ci_high": null,
+      "k": null,
+      "n": null,
+      "source_ids": [
+        "sheeran2016"
+      ],
+      "notes": "Norm subtypes stay explicit and may later split when separate pooled estimates are available."
+    }
+  ]
+}

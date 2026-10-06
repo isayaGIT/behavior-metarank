@@ -12,9 +12,9 @@ GENERATED = ROOT / "generated"
 MANUSCRIPT = ROOT / "paper" / "manuscript.md"
 
 LAYERS = ("association", "prospective", "causal", "mediation")
-REQ_MECH = ("id", "name", "definition", "status", "updated_at", "syntheses")
+REQ_MECH = ("id", "name", "family", "definition", "status", "updated_at", "syntheses")
 REQ_SYN = (
-    "id", "layer", "behavior_domain", "design", "effect_metric",
+    "id", "layer", "outcome", "behavior_domain", "design", "effect_metric",
     "effect_value", "source_ids", "notes"
 )
 PAPER_FIELDS = [
@@ -93,7 +93,8 @@ def build_markdown(mechanisms: list[dict[str, Any]]) -> str:
         for syn in m["syntheses"]:
             val = f"{syn['effect_metric']}={fmt_num(syn['effect_value'])}"
             domain = syn.get("behavior_domain") or ""
-            by_layer[syn["layer"]].append(f"{val} ({domain})")
+            outcome = syn.get("outcome") or ""
+            by_layer[syn["layer"]].append(f"{val} → {outcome} ({domain})")
         rows.append(
             "| {name} | {assoc} | {pros} | {causal} | {med} |".format(
                 name=m["name"],
@@ -153,8 +154,9 @@ def main() -> None:
             synth_rows.append({
                 "mechanism_id": data["id"],
                 "mechanism_name": data["name"],
+                "mechanism_family": data["family"],
                 **{k: syn.get(k) for k in (
-                    "id", "layer", "behavior_domain", "design", "effect_metric",
+                    "id", "layer", "outcome", "behavior_domain", "design", "effect_metric",
                     "effect_value", "ci_low", "ci_high", "k", "n", "notes"
                 )},
                 "source_ids": ";".join(syn["source_ids"]),
@@ -166,7 +168,7 @@ def main() -> None:
     )
 
     synth_fields = [
-        "mechanism_id", "mechanism_name", "id", "layer", "behavior_domain",
+        "mechanism_id", "mechanism_name", "mechanism_family", "id", "layer", "outcome", "behavior_domain",
         "design", "effect_metric", "effect_value", "ci_low", "ci_high",
         "k", "n", "source_ids", "notes"
     ]

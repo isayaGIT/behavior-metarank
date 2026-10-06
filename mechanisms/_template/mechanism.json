@@ -1,8 +1,10 @@
 {
   "id": "example-mechanism",
   "name": "Example Mechanism",
+  "family": "example-family",
   "aliases": [],
   "definition": "Operational definition used for this evidence synthesis.",
+  "related_mechanisms": [],
   "status": "draft",
   "updated_at": "YYYY-MM-DD",
   "syntheses": [
@@ -18,7 +20,8 @@
       "k": null,
       "n": null,
       "source_ids": [],
-      "notes": ""
+      "notes": "",
+      "outcome": "behavior"
     }
   ]
 }

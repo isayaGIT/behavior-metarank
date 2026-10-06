@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+webb2006,Does changing behavioral intentions engender behavior change? A meta-analysis of the experimental evidence,2006,10.1037/0033-2909.132.2.249,https://pubmed.ncbi.nlm.nih.gov/16536643/,meta-analysis,causal,multiple,d,0.36,,,47,,Behavior effect when randomized interventions successfully changed intention.

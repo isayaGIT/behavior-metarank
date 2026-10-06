@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+gardner2011,A systematic review and meta-analysis of applications of the Self-Report Habit Index to nutrition and physical activity behaviours,2011,10.1007/s12160-011-9282-0,https://pubmed.ncbi.nlm.nih.gov/21626256/,systematic review and meta-analysis,association,"nutrition, physical activity, active travel",r,0.46,,,23,,Random-effects weighted habit-behavior correlation.

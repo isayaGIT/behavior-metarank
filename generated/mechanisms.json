@@ -1,7 +1,156 @@
 [
   {
+    "id": "autonomous-motivation",
+    "name": "Autonomous motivation",
+    "family": "motivational-quality",
+    "aliases": [
+      "self-determined motivation",
+      "autonomous regulation",
+      "identified regulation",
+      "intrinsic motivation"
+    ],
+    "definition": "Motivation experienced as volitional and self-endorsed rather than controlled by pressure.",
+    "related_mechanisms": [
+      "perceived-competence",
+      "identity",
+      "intentions"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "autonomous-motivation-change-behavior-2021",
+        "layer": "causal",
+        "outcome": "behavior",
+        "behavior_domain": "health behaviors",
+        "design": "change meta-analysis of randomized interventions that successfully increased autonomous motivation",
+        "effect_metric": "d",
+        "effect_value": 0.47,
+        "ci_low": 0.32,
+        "ci_high": 0.62,
+        "k": 18,
+        "n": 5063,
+        "source_ids": [
+          "sheeran2021"
+        ],
+        "notes": "Behavior effect among tests with significant target engagement; target change itself was d=0.64."
+      }
+    ]
+  },
+  {
+    "id": "behavioral-attitudes",
+    "name": "Behavioral attitudes",
+    "family": "evaluative-cognition",
+    "aliases": [
+      "attitude toward the behavior",
+      "behavior-specific attitude",
+      "behavioral attitude"
+    ],
+    "definition": "Evaluation of performing a specific behavior as favorable or unfavorable.",
+    "related_mechanisms": [
+      "intentions",
+      "social-norms"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "attitude-change-behavior-2016",
+        "layer": "causal",
+        "outcome": "behavior",
+        "behavior_domain": "health behaviors",
+        "design": "meta-analysis of experimental tests that successfully changed the target construct",
+        "effect_metric": "d",
+        "effect_value": 0.38,
+        "ci_low": null,
+        "ci_high": null,
+        "k": null,
+        "n": null,
+        "source_ids": [
+          "sheeran2016"
+        ],
+        "notes": "Only behavior-specific evaluations belong here; broad object attitudes remain separate."
+      }
+    ]
+  },
+  {
+    "id": "goal-setting",
+    "name": "Goal setting",
+    "family": "goal-regulation",
+    "aliases": [
+      "setting goals",
+      "behavioral goal setting",
+      "outcome goal setting"
+    ],
+    "definition": "Specifying a desired behavioral or outcome standard to guide action.",
+    "related_mechanisms": [
+      "intentions",
+      "implementation-intentions"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "goal-setting-behavior-2017",
+        "layer": "causal",
+        "outcome": "behavior",
+        "behavior_domain": "multiple",
+        "design": "systematic review and meta-analysis of randomized controlled trials isolating the unique effect of goal setting",
+        "effect_metric": "d",
+        "effect_value": 0.34,
+        "ci_low": 0.28,
+        "ci_high": 0.41,
+        "k": 384,
+        "n": 16523,
+        "source_ids": [
+          "epton2017"
+        ],
+        "notes": "384 effect sizes from 141 papers; k here denotes extracted effect sizes."
+      }
+    ]
+  },
+  {
+    "id": "habit",
+    "name": "Habit / behavioral automaticity",
+    "family": "automaticity-and-repetition",
+    "aliases": [
+      "habit strength",
+      "behavioral automaticity",
+      "automatic behavior",
+      "SRHI",
+      "SRBAI"
+    ],
+    "definition": "A learned cue-response tendency in which behavior becomes increasingly automatic through repetition in recurring contexts.",
+    "related_mechanisms": [
+      "implementation-intentions",
+      "identity"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "habit-behavior-correlation-2011",
+        "layer": "association",
+        "outcome": "behavior",
+        "behavior_domain": "nutrition, physical activity, active travel",
+        "design": "systematic review and random-effects meta-analysis of Self-Report Habit Index applications",
+        "effect_metric": "r",
+        "effect_value": 0.46,
+        "ci_low": null,
+        "ci_high": null,
+        "k": 23,
+        "n": null,
+        "source_ids": [
+          "gardner2011"
+        ],
+        "notes": "Medium-to-strong association; much of the evidence is observational, so this should not be ranked as causal evidence."
+      }
+    ]
+  },
+  {
     "id": "identity",
     "name": "Identity / self-identity",
+    "family": "identity-and-self-concept",
     "aliases": [
       "self-identity",
       "behavioral identity",
@@ -10,6 +159,11 @@
       "identity-based motivation"
     ],
     "definition": "The extent to which a behavior, role, or goal is represented as part of the self-concept. This folder keeps identity constructs distinct from habit and intention while documenting overlaps.",
+    "related_mechanisms": [
+      "habit",
+      "intentions",
+      "autonomous-motivation"
+    ],
     "status": "active",
     "updated_at": "2026-10-06",
     "syntheses": [
@@ -27,7 +181,8 @@
         "source_ids": [
           "rise2010"
         ],
-        "notes": "Self-identity association with behavioral intention; this is not a direct identity-behavior causal estimate."
+        "notes": "Self-identity association with behavioral intention; this is not a direct identity-behavior causal estimate.",
+        "outcome": "behavioral intention"
       },
       {
         "id": "identity-habit-2025",
@@ -43,7 +198,8 @@
         "source_ids": [
           "zhu2025"
         ],
-        "notes": "Identity-habit association, not identity-behavior. Preserved because it is frequently misinterpreted."
+        "notes": "Identity-habit association, not identity-behavior. Preserved because it is frequently misinterpreted.",
+        "outcome": "habit strength"
       },
       {
         "id": "identity-pa-intervention-2025",
@@ -59,7 +215,194 @@
         "source_ids": [
           "identityintervention2025"
         ],
-        "notes": "Effect on identity itself. Behavior changed in the same intervention literature, but this estimate alone does not establish identity as the mediator."
+        "notes": "Effect on identity itself. Behavior changed in the same intervention literature, but this estimate alone does not establish identity as the mediator.",
+        "outcome": "identity"
+      }
+    ]
+  },
+  {
+    "id": "implementation-intentions",
+    "name": "Implementation intentions",
+    "family": "planning-and-cue-response",
+    "aliases": [
+      "if-then plans",
+      "implementation intention"
+    ],
+    "definition": "Plans that link a specified situational cue to a goal-directed response in an if-then form.",
+    "related_mechanisms": [
+      "intentions",
+      "goal-setting",
+      "habit"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "implementation-intentions-goal-attainment-2006",
+        "layer": "causal",
+        "outcome": "goal attainment / behavior",
+        "behavior_domain": "multiple",
+        "design": "meta-analysis of 94 independent experimental tests",
+        "effect_metric": "d",
+        "effect_value": 0.65,
+        "ci_low": null,
+        "ci_high": null,
+        "k": 94,
+        "n": null,
+        "source_ids": [
+          "gollwitzer2006"
+        ],
+        "notes": "Medium-to-large effect; review also reports enhanced cue accessibility and more automatic goal-directed responding."
+      }
+    ]
+  },
+  {
+    "id": "intentions",
+    "name": "Behavioral intentions",
+    "family": "motivational-commitment",
+    "aliases": [
+      "behavioral intention",
+      "goal intention",
+      "intention"
+    ],
+    "definition": "A stated commitment or readiness to perform a specified behavior.",
+    "related_mechanisms": [
+      "implementation-intentions",
+      "goal-setting",
+      "behavioral-attitudes",
+      "social-norms",
+      "self-efficacy"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "intention-change-behavior-2006",
+        "layer": "causal",
+        "outcome": "behavior",
+        "behavior_domain": "multiple",
+        "design": "meta-analysis of 47 experimental tests in which randomized interventions significantly changed intention",
+        "effect_metric": "d",
+        "effect_value": 0.36,
+        "ci_low": null,
+        "ci_high": null,
+        "k": 47,
+        "n": null,
+        "source_ids": [
+          "webb2006"
+        ],
+        "notes": "A medium-to-large intention change (d=0.66) was followed by a small-to-medium behavior change (d=0.36)."
+      }
+    ]
+  },
+  {
+    "id": "perceived-competence",
+    "name": "Perceived competence",
+    "family": "capability-beliefs",
+    "aliases": [
+      "competence",
+      "competence satisfaction",
+      "perceived behavioral competence"
+    ],
+    "definition": "Perceived effectiveness or competence in carrying out a target behavior, especially in Self-Determination Theory contexts.",
+    "related_mechanisms": [
+      "self-efficacy",
+      "autonomous-motivation"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "perceived-competence-change-behavior-2021",
+        "layer": "causal",
+        "outcome": "behavior",
+        "behavior_domain": "health behaviors",
+        "design": "change meta-analysis of randomized interventions that successfully increased perceived competence",
+        "effect_metric": "d",
+        "effect_value": 0.34,
+        "ci_low": 0.22,
+        "ci_high": 0.47,
+        "k": 13,
+        "n": 3667,
+        "source_ids": [
+          "sheeran2021"
+        ],
+        "notes": "Related to self-efficacy but retained as a separate construct; target change itself was d=0.36."
+      }
+    ]
+  },
+  {
+    "id": "self-efficacy",
+    "name": "Self-efficacy",
+    "family": "capability-beliefs",
+    "aliases": [
+      "self efficacy",
+      "efficacy beliefs",
+      "confidence to perform behavior"
+    ],
+    "definition": "Belief in one's capability to organize and execute the actions required to perform a target behavior.",
+    "related_mechanisms": [
+      "perceived-competence",
+      "intentions",
+      "autonomous-motivation"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "self-efficacy-change-behavior-2016",
+        "layer": "causal",
+        "outcome": "behavior",
+        "behavior_domain": "health behaviors",
+        "design": "meta-analysis of experimental tests that successfully changed the target construct",
+        "effect_metric": "d",
+        "effect_value": 0.47,
+        "ci_low": null,
+        "ci_high": null,
+        "k": null,
+        "n": null,
+        "source_ids": [
+          "sheeran2016"
+        ],
+        "notes": "Kept separate from perceived competence despite conceptual overlap."
+      }
+    ]
+  },
+  {
+    "id": "social-norms",
+    "name": "Social norms",
+    "family": "social-influence",
+    "aliases": [
+      "norms",
+      "injunctive norms",
+      "descriptive norms",
+      "subjective norms",
+      "perceived norms"
+    ],
+    "definition": "Perceived or communicated standards about what others do or approve.",
+    "related_mechanisms": [
+      "behavioral-attitudes",
+      "intentions"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "norm-change-behavior-2016",
+        "layer": "causal",
+        "outcome": "behavior",
+        "behavior_domain": "health behaviors",
+        "design": "meta-analysis of experimental tests that successfully changed the target construct",
+        "effect_metric": "d",
+        "effect_value": 0.36,
+        "ci_low": null,
+        "ci_high": null,
+        "k": null,
+        "n": null,
+        "source_ids": [
+          "sheeran2016"
+        ],
+        "notes": "Norm subtypes stay explicit and may later split when separate pooled estimates are available."
       }
     ]
   }

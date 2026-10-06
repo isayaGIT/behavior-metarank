@@ -1,0 +1,38 @@
+{
+  "id": "autonomous-motivation",
+  "name": "Autonomous motivation",
+  "family": "motivational-quality",
+  "aliases": [
+    "self-determined motivation",
+    "autonomous regulation",
+    "identified regulation",
+    "intrinsic motivation"
+  ],
+  "definition": "Motivation experienced as volitional and self-endorsed rather than controlled by pressure.",
+  "related_mechanisms": [
+    "perceived-competence",
+    "identity",
+    "intentions"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "autonomous-motivation-change-behavior-2021",
+      "layer": "causal",
+      "outcome": "behavior",
+      "behavior_domain": "health behaviors",
+      "design": "change meta-analysis of randomized interventions that successfully increased autonomous motivation",
+      "effect_metric": "d",
+      "effect_value": 0.47,
+      "ci_low": 0.32,
+      "ci_high": 0.62,
+      "k": 18,
+      "n": 5063,
+      "source_ids": [
+        "sheeran2021"
+      ],
+      "notes": "Behavior effect among tests with significant target engagement; target change itself was d=0.64."
+    }
+  ]
+}

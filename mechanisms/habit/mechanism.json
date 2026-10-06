@@ -1,0 +1,38 @@
+{
+  "id": "habit",
+  "name": "Habit / behavioral automaticity",
+  "family": "automaticity-and-repetition",
+  "aliases": [
+    "habit strength",
+    "behavioral automaticity",
+    "automatic behavior",
+    "SRHI",
+    "SRBAI"
+  ],
+  "definition": "A learned cue-response tendency in which behavior becomes increasingly automatic through repetition in recurring contexts.",
+  "related_mechanisms": [
+    "implementation-intentions",
+    "identity"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "habit-behavior-correlation-2011",
+      "layer": "association",
+      "outcome": "behavior",
+      "behavior_domain": "nutrition, physical activity, active travel",
+      "design": "systematic review and random-effects meta-analysis of Self-Report Habit Index applications",
+      "effect_metric": "r",
+      "effect_value": 0.46,
+      "ci_low": null,
+      "ci_high": null,
+      "k": 23,
+      "n": null,
+      "source_ids": [
+        "gardner2011"
+      ],
+      "notes": "Medium-to-strong association; much of the evidence is observational, so this should not be ranked as causal evidence."
+    }
+  ]
+}

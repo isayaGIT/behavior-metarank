@@ -1,0 +1,39 @@
+{
+  "id": "intentions",
+  "name": "Behavioral intentions",
+  "family": "motivational-commitment",
+  "aliases": [
+    "behavioral intention",
+    "goal intention",
+    "intention"
+  ],
+  "definition": "A stated commitment or readiness to perform a specified behavior.",
+  "related_mechanisms": [
+    "implementation-intentions",
+    "goal-setting",
+    "behavioral-attitudes",
+    "social-norms",
+    "self-efficacy"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "intention-change-behavior-2006",
+      "layer": "causal",
+      "outcome": "behavior",
+      "behavior_domain": "multiple",
+      "design": "meta-analysis of 47 experimental tests in which randomized interventions significantly changed intention",
+      "effect_metric": "d",
+      "effect_value": 0.36,
+      "ci_low": null,
+      "ci_high": null,
+      "k": 47,
+      "n": null,
+      "source_ids": [
+        "webb2006"
+      ],
+      "notes": "A medium-to-large intention change (d=0.66) was followed by a small-to-medium behavior change (d=0.36)."
+    }
+  ]
+}

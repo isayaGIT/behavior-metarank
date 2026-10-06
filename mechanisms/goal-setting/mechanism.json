@@ -1,0 +1,36 @@
+{
+  "id": "goal-setting",
+  "name": "Goal setting",
+  "family": "goal-regulation",
+  "aliases": [
+    "setting goals",
+    "behavioral goal setting",
+    "outcome goal setting"
+  ],
+  "definition": "Specifying a desired behavioral or outcome standard to guide action.",
+  "related_mechanisms": [
+    "intentions",
+    "implementation-intentions"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "goal-setting-behavior-2017",
+      "layer": "causal",
+      "outcome": "behavior",
+      "behavior_domain": "multiple",
+      "design": "systematic review and meta-analysis of randomized controlled trials isolating the unique effect of goal setting",
+      "effect_metric": "d",
+      "effect_value": 0.34,
+      "ci_low": 0.28,
+      "ci_high": 0.41,
+      "k": 384,
+      "n": 16523,
+      "source_ids": [
+        "epton2017"
+      ],
+      "notes": "384 effect sizes from 141 papers; k here denotes extracted effect sizes."
+    }
+  ]
+}

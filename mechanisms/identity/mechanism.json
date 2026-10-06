@@ -1,6 +1,7 @@
 {
   "id": "identity",
   "name": "Identity / self-identity",
+  "family": "identity-and-self-concept",
   "aliases": [
     "self-identity",
     "behavioral identity",
@@ -9,6 +10,11 @@
     "identity-based motivation"
   ],
   "definition": "The extent to which a behavior, role, or goal is represented as part of the self-concept. This folder keeps identity constructs distinct from habit and intention while documenting overlaps.",
+  "related_mechanisms": [
+    "habit",
+    "intentions",
+    "autonomous-motivation"
+  ],
   "status": "active",
   "updated_at": "2026-10-06",
   "syntheses": [
@@ -23,8 +29,11 @@
       "ci_high": null,
       "k": 40,
       "n": 11607,
-      "source_ids": ["rise2010"],
-      "notes": "Self-identity association with behavioral intention; this is not a direct identity-behavior causal estimate."
+      "source_ids": [
+        "rise2010"
+      ],
+      "notes": "Self-identity association with behavioral intention; this is not a direct identity-behavior causal estimate.",
+      "outcome": "behavioral intention"
     },
     {
       "id": "identity-habit-2025",
@@ -37,8 +46,11 @@
       "ci_high": null,
       "k": null,
       "n": 13340,
-      "source_ids": ["zhu2025"],
-      "notes": "Identity-habit association, not identity-behavior. Preserved because it is frequently misinterpreted."
+      "source_ids": [
+        "zhu2025"
+      ],
+      "notes": "Identity-habit association, not identity-behavior. Preserved because it is frequently misinterpreted.",
+      "outcome": "habit strength"
     },
     {
       "id": "identity-pa-intervention-2025",
@@ -51,8 +63,11 @@
       "ci_high": null,
       "k": 40,
       "n": 4939,
-      "source_ids": ["identityintervention2025"],
-      "notes": "Effect on identity itself. Behavior changed in the same intervention literature, but this estimate alone does not establish identity as the mediator."
+      "source_ids": [
+        "identityintervention2025"
+      ],
+      "notes": "Effect on identity itself. Behavior changed in the same intervention literature, but this estimate alone does not establish identity as the mediator.",
+      "outcome": "identity"
     }
   ]
 }

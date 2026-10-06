@@ -1,0 +1,36 @@
+{
+  "id": "behavioral-attitudes",
+  "name": "Behavioral attitudes",
+  "family": "evaluative-cognition",
+  "aliases": [
+    "attitude toward the behavior",
+    "behavior-specific attitude",
+    "behavioral attitude"
+  ],
+  "definition": "Evaluation of performing a specific behavior as favorable or unfavorable.",
+  "related_mechanisms": [
+    "intentions",
+    "social-norms"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "attitude-change-behavior-2016",
+      "layer": "causal",
+      "outcome": "behavior",
+      "behavior_domain": "health behaviors",
+      "design": "meta-analysis of experimental tests that successfully changed the target construct",
+      "effect_metric": "d",
+      "effect_value": 0.38,
+      "ci_low": null,
+      "ci_high": null,
+      "k": null,
+      "n": null,
+      "source_ids": [
+        "sheeran2016"
+      ],
+      "notes": "Only behavior-specific evaluations belong here; broad object attitudes remain separate."
+    }
+  ]
+}

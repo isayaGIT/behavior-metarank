@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+sheeran2016,"The impact of changing attitudes, norms, and self-efficacy on health-related intentions and behavior: A meta-analysis",2016,10.1037/hea0000387,https://pubmed.ncbi.nlm.nih.gov/27280365/,meta-analysis,causal,health behaviors,d,0.36,,,,,Behavior effect after experimentally induced change in the target construct.

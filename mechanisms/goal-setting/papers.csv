@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+epton2017,Unique effects of setting goals on behavior change: Systematic review and meta-analysis,2017,10.1037/ccp0000260,https://pubmed.ncbi.nlm.nih.gov/29189034/,systematic review and meta-analysis,causal,multiple,d,0.34,0.28,0.41,384,16523,Unique effect of goal setting across randomized tests; 384 effect sizes from 141 papers.

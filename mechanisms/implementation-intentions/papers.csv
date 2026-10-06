@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+gollwitzer2006,Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes,2006,10.1016/S0065-2601(06)38002-1,https://doi.org/10.1016/S0065-2601(06)38002-1,meta-analysis,causal,multiple,d,0.65,,,94,,Effect on goal attainment across 94 independent tests.
