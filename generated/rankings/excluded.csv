@@ -1,0 +1,5 @@
+mechanism_id,mechanism_name,id,layer,outcome,effect_metric,effect_value,rank_target,rank_exclusion_reason
+fear-appeals,Fear appeals,fear-appeals-composite-2015,causal,attitude / intention / behavior composite,d,0.29,composite,"Primary effect combines attitude, intention, and behavior outcomes."
+identity,Identity / self-identity,identity-intention-2010,association,behavioral intention,r,0.47,nonbehavior,"Outcome is behavioral intention, not behavior."
+identity,Identity / self-identity,identity-habit-2025,association,habit strength,r,0.55,nonbehavior,"Outcome is habit strength, not behavior."
+identity,Identity / self-identity,identity-pa-intervention-2025,causal,identity,Hedges_g,0.18,nonbehavior,"Outcome is identity itself, not behavior."

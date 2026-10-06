@@ -31,7 +31,11 @@
       "source_ids": [
         "davies2025"
       ],
-      "notes": "Access interventions improved vaccine uptake. Accessibility is kept separate from affordability because the source network meta-analysis estimates them independently."
+      "notes": "Access interventions improved vaccine uptake. Accessibility is kept separate from affordability because the source network meta-analysis estimates them independently.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "odds_ratio"
     }
   ]
 }

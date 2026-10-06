@@ -31,7 +31,11 @@
       "source_ids": [
         "davies2025"
       ],
-      "notes": "Education interventions improved vaccine uptake in this domain. This is an intervention strategy, not proof that measured knowledge itself is the causal mediator."
+      "notes": "Education interventions improved vaccine uptake in this domain. This is an intervention strategy, not proof that measured knowledge itself is the causal mediator.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "odds_ratio"
     }
   ]
 }

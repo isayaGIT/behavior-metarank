@@ -32,7 +32,11 @@
       "source_ids": [
         "sheeran2016"
       ],
-      "notes": "Norm subtypes stay explicit and may later split when separate pooled estimates are available."
+      "notes": "Norm subtypes stay explicit and may later split when separate pooled estimates are available.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     }
   ]
 }

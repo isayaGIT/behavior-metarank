@@ -30,7 +30,11 @@
       "source_ids": [
         "brewer2016"
       ],
-      "notes": "Association with behavior; anticipated regret was also associated with intention at r=0.50. Not causal evidence."
+      "notes": "Association with behavior; anticipated regret was also associated with intention at r=0.50. Not causal evidence.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "correlation"
     }
   ]
 }

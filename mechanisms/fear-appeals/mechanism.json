@@ -30,7 +30,11 @@
       "source_ids": [
         "tannenbaum2015"
       ],
-      "notes": "Primary reported effect is a composite across attitudes, intentions, and behaviors, so it must not be ranked as a behavior-only effect without extracting the behavior subgroup."
+      "notes": "Primary reported effect is a composite across attitudes, intentions, and behaviors, so it must not be ranked as a behavior-only effect without extracting the behavior subgroup.",
+      "rank_eligible": false,
+      "rank_target": "composite",
+      "rank_exclusion_reason": "Primary effect combines attitude, intention, and behavior outcomes.",
+      "rank_metric_group": "smd"
     }
   ]
 }

@@ -1,0 +1,4 @@
+rank,mechanism_id,mechanism_name,synthesis_id,effect_metric,effect_value,ci_low,ci_high,outcome,behavior_domain,k,n,source_ids,notes
+1,habit,Habit / behavioral automaticity,habit-behavior-correlation-2011,r,0.46,,,behavior,"nutrition, physical activity, active travel",23,,gardner2011,"Medium-to-strong association; much of the evidence is observational, so this should not be ranked as causal evidence."
+2,anticipated-regret,Anticipated regret,anticipated-regret-behavior-2016,r,0.29,,,health behavior,health behaviors,81,45618,brewer2016,Association with behavior; anticipated regret was also associated with intention at r=0.50. Not causal evidence.
+3,trust-healthcare-professional,Trust in healthcare professionals,trust-health-behavior-2017,r,0.14,0.1,0.19,health behavior,clinical health behaviors,,,birkhaeuer2017,Small association with health behaviors. Authors explicitly note that prospective work is needed; not causal evidence.

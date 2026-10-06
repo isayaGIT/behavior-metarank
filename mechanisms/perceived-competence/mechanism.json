@@ -30,7 +30,11 @@
       "source_ids": [
         "sheeran2021"
       ],
-      "notes": "Related to self-efficacy but retained as a separate construct; target change itself was d=0.36."
+      "notes": "Related to self-efficacy but retained as a separate construct; target change itself was d=0.36.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     }
   ]
 }

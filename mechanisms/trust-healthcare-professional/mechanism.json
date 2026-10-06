@@ -29,7 +29,11 @@
       "source_ids": [
         "birkhaeuer2017"
       ],
-      "notes": "Small association with health behaviors. Authors explicitly note that prospective work is needed; not causal evidence."
+      "notes": "Small association with health behaviors. Authors explicitly note that prospective work is needed; not causal evidence.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "correlation"
     }
   ]
 }

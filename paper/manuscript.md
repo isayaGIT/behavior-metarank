@@ -39,3 +39,10 @@ This manuscript is generated in part from the mechanism evidence repository.
 ## Interpretation
 
 A high association does not by itself imply that a construct is an effective intervention target. Predictive and causal evidence are reported separately.
+
+
+## Rank v0
+
+The current ranking engine only ranks direct-behavior syntheses within comparable evidence-layer and effect-metric buckets. It does not yet compute a cross-metric global score.
+
+See generated/rankings/ for the current leaderboards.

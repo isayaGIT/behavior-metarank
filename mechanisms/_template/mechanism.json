@@ -21,7 +21,11 @@
       "n": null,
       "source_ids": [],
       "notes": "",
-      "outcome": "behavior"
+      "outcome": "behavior",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "correlation"
     }
   ]
 }

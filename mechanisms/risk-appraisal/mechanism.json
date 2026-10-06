@@ -32,7 +32,11 @@
       "source_ids": [
         "sheeran2014"
       ],
-      "notes": "Direct target-change evidence. Intention effect was d=0.31 (k=217). Combined increases in risk appraisal, response efficacy, and self-efficacy yielded a larger behavior effect (d=0.45)."
+      "notes": "Direct target-change evidence. Intention effect was d=0.31 (k=217). Combined increases in risk appraisal, response efficacy, and self-efficacy yielded a larger behavior effect (d=0.45).",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     }
   ]
 }

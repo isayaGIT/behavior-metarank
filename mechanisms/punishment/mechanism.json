@@ -29,7 +29,11 @@
       "source_ids": [
         "balliet2011"
       ],
-      "notes": "Medium-to-large positive effect on cooperation. This is not equivalent to legal/administrative sanctions in real-world compliance settings."
+      "notes": "Medium-to-large positive effect on cooperation. This is not equivalent to legal/administrative sanctions in real-world compliance settings.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     }
   ]
 }

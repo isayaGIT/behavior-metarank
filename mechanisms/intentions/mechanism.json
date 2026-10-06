@@ -33,7 +33,11 @@
       "source_ids": [
         "webb2006"
       ],
-      "notes": "A medium-to-large intention change (d=0.66) was followed by a small-to-medium behavior change (d=0.36)."
+      "notes": "A medium-to-large intention change (d=0.66) was followed by a small-to-medium behavior change (d=0.36).",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     }
   ]
 }

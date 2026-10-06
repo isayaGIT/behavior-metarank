@@ -32,7 +32,11 @@
       "source_ids": [
         "shushtari2023"
       ],
-      "notes": "Moderate heterogeneity (I2=58.3%). Estimate is domain-specific and should not be generalized to all behaviors without additional syntheses."
+      "notes": "Moderate heterogeneity (I2=58.3%). Estimate is domain-specific and should not be generalized to all behaviors without additional syntheses.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "odds_ratio"
     }
   ]
 }

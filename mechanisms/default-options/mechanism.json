@@ -30,7 +30,11 @@
       "source_ids": [
         "jachimowicz2019"
       ],
-      "notes": "Substantial heterogeneity; three-level model estimate was d+=0.63 [0.47,0.80]."
+      "notes": "Substantial heterogeneity; three-level model estimate was d+=0.63 [0.47,0.80].",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     }
   ]
 }

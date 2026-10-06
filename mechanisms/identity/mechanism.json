@@ -33,7 +33,11 @@
         "rise2010"
       ],
       "notes": "Self-identity association with behavioral intention; this is not a direct identity-behavior causal estimate.",
-      "outcome": "behavioral intention"
+      "outcome": "behavioral intention",
+      "rank_eligible": false,
+      "rank_target": "nonbehavior",
+      "rank_exclusion_reason": "Outcome is behavioral intention, not behavior.",
+      "rank_metric_group": "correlation"
     },
     {
       "id": "identity-habit-2025",
@@ -50,7 +54,11 @@
         "zhu2025"
       ],
       "notes": "Identity-habit association, not identity-behavior. Preserved because it is frequently misinterpreted.",
-      "outcome": "habit strength"
+      "outcome": "habit strength",
+      "rank_eligible": false,
+      "rank_target": "nonbehavior",
+      "rank_exclusion_reason": "Outcome is habit strength, not behavior.",
+      "rank_metric_group": "correlation"
     },
     {
       "id": "identity-pa-intervention-2025",
@@ -67,7 +75,11 @@
         "identityintervention2025"
       ],
       "notes": "Effect on identity itself. Behavior changed in the same intervention literature, but this estimate alone does not establish identity as the mediator.",
-      "outcome": "identity"
+      "outcome": "identity",
+      "rank_eligible": false,
+      "rank_target": "nonbehavior",
+      "rank_exclusion_reason": "Outcome is identity itself, not behavior.",
+      "rank_metric_group": "smd"
     }
   ]
 }

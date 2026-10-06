@@ -43,3 +43,10 @@ A new mechanism becomes part of the master evidence base because its folder exis
 ## Construct clustering
 
 Mechanism folders are clustered using explicit rules in protocol/construct-clustering.md. Higher-order frameworks such as the TDF are used as crosswalks, not as automatic pooling instructions. Research anchors and prior-art sources are tracked in research/clustering-sources.csv.
+
+
+## Ranking
+
+Rank v0 is implemented in scripts/rank.py.
+
+It intentionally produces separate metric-specific leaderboards rather than one global score. See protocol/ranking.md for the eligibility rules and limitations.

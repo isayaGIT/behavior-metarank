@@ -32,7 +32,11 @@
         "source_ids": [
           "davies2025"
         ],
-        "notes": "Access interventions improved vaccine uptake. Accessibility is kept separate from affordability because the source network meta-analysis estimates them independently."
+        "notes": "Access interventions improved vaccine uptake. Accessibility is kept separate from affordability because the source network meta-analysis estimates them independently.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "odds_ratio"
       }
     ]
   },
@@ -69,7 +73,11 @@
         "source_ids": [
           "davies2025"
         ],
-        "notes": "Affordability interventions improved vaccine uptake. This is not the same as paying a contingent reward; it reduces the cost of action."
+        "notes": "Affordability interventions improved vaccine uptake. This is not the same as paying a contingent reward; it reduces the cost of action.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "odds_ratio"
       }
     ]
   },
@@ -105,7 +113,11 @@
         "source_ids": [
           "brewer2016"
         ],
-        "notes": "Association with behavior; anticipated regret was also associated with intention at r=0.50. Not causal evidence."
+        "notes": "Association with behavior; anticipated regret was also associated with intention at r=0.50. Not causal evidence.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "correlation"
       }
     ]
   },
@@ -143,7 +155,11 @@
         "source_ids": [
           "sheeran2021"
         ],
-        "notes": "Behavior effect among tests with significant target engagement; target change itself was d=0.64."
+        "notes": "Behavior effect among tests with significant target engagement; target change itself was d=0.64.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -179,7 +195,11 @@
         "source_ids": [
           "sheeran2016"
         ],
-        "notes": "Only behavior-specific evaluations belong here; broad object attitudes remain separate."
+        "notes": "Only behavior-specific evaluations belong here; broad object attitudes remain separate.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -215,7 +235,11 @@
         "source_ids": [
           "jachimowicz2019"
         ],
-        "notes": "Substantial heterogeneity; three-level model estimate was d+=0.63 [0.47,0.80]."
+        "notes": "Substantial heterogeneity; three-level model estimate was d+=0.63 [0.47,0.80].",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -252,7 +276,11 @@
         "source_ids": [
           "davies2025"
         ],
-        "notes": "Education interventions improved vaccine uptake in this domain. This is an intervention strategy, not proof that measured knowledge itself is the causal mediator."
+        "notes": "Education interventions improved vaccine uptake in this domain. This is an intervention strategy, not proof that measured knowledge itself is the causal mediator.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "odds_ratio"
       }
     ]
   },
@@ -288,7 +316,11 @@
         "source_ids": [
           "tannenbaum2015"
         ],
-        "notes": "Primary reported effect is a composite across attitudes, intentions, and behaviors, so it must not be ranked as a behavior-only effect without extracting the behavior subgroup."
+        "notes": "Primary reported effect is a composite across attitudes, intentions, and behaviors, so it must not be ranked as a behavior-only effect without extracting the behavior subgroup.",
+        "rank_eligible": false,
+        "rank_target": "composite",
+        "rank_exclusion_reason": "Primary effect combines attitude, intention, and behavior outcomes.",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -324,7 +356,11 @@
         "source_ids": [
           "giles2014"
         ],
-        "notes": "All behaviors combined; effectiveness tended to attenuate with longer post-intervention follow-up."
+        "notes": "All behaviors combined; effectiveness tended to attenuate with longer post-intervention follow-up.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "risk_ratio"
       },
       {
         "id": "financial-incentives-sustained-2015",
@@ -341,7 +377,11 @@
         "source_ids": [
           "mantzari2015"
         ],
-        "notes": "Effect at up to 18 months from baseline; effects generally weakened after incentive removal."
+        "notes": "Effect at up to 18 months from baseline; effects generally weakened after incentive removal.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "odds_ratio"
       }
     ]
   },
@@ -377,7 +417,11 @@
         "source_ids": [
           "epton2017"
         ],
-        "notes": "384 effect sizes from 141 papers; k here denotes extracted effect sizes."
+        "notes": "384 effect sizes from 141 papers; k here denotes extracted effect sizes.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -415,7 +459,11 @@
         "source_ids": [
           "gardner2011"
         ],
-        "notes": "Medium-to-strong association; much of the evidence is observational, so this should not be ranked as causal evidence."
+        "notes": "Medium-to-strong association; much of the evidence is observational, so this should not be ranked as causal evidence.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "correlation"
       }
     ]
   },
@@ -454,7 +502,11 @@
           "rise2010"
         ],
         "notes": "Self-identity association with behavioral intention; this is not a direct identity-behavior causal estimate.",
-        "outcome": "behavioral intention"
+        "outcome": "behavioral intention",
+        "rank_eligible": false,
+        "rank_target": "nonbehavior",
+        "rank_exclusion_reason": "Outcome is behavioral intention, not behavior.",
+        "rank_metric_group": "correlation"
       },
       {
         "id": "identity-habit-2025",
@@ -471,7 +523,11 @@
           "zhu2025"
         ],
         "notes": "Identity-habit association, not identity-behavior. Preserved because it is frequently misinterpreted.",
-        "outcome": "habit strength"
+        "outcome": "habit strength",
+        "rank_eligible": false,
+        "rank_target": "nonbehavior",
+        "rank_exclusion_reason": "Outcome is habit strength, not behavior.",
+        "rank_metric_group": "correlation"
       },
       {
         "id": "identity-pa-intervention-2025",
@@ -488,7 +544,11 @@
           "identityintervention2025"
         ],
         "notes": "Effect on identity itself. Behavior changed in the same intervention literature, but this estimate alone does not establish identity as the mediator.",
-        "outcome": "identity"
+        "outcome": "identity",
+        "rank_eligible": false,
+        "rank_target": "nonbehavior",
+        "rank_exclusion_reason": "Outcome is identity itself, not behavior.",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -524,7 +584,11 @@
         "source_ids": [
           "gollwitzer2006"
         ],
-        "notes": "Medium-to-large effect; review also reports enhanced cue accessibility and more automatic goal-directed responding."
+        "notes": "Medium-to-large effect; review also reports enhanced cue accessibility and more automatic goal-directed responding.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -563,7 +627,11 @@
         "source_ids": [
           "webb2006"
         ],
-        "notes": "A medium-to-large intention change (d=0.66) was followed by a small-to-medium behavior change (d=0.36)."
+        "notes": "A medium-to-large intention change (d=0.66) was followed by a small-to-medium behavior change (d=0.36).",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -599,7 +667,11 @@
         "source_ids": [
           "sheeran2021"
         ],
-        "notes": "Related to self-efficacy but retained as a separate construct; target change itself was d=0.36."
+        "notes": "Related to self-efficacy but retained as a separate construct; target change itself was d=0.36.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -637,7 +709,11 @@
         "source_ids": [
           "gemmecke2025"
         ],
-        "notes": "Model coefficient summarizes Hedges-g effect sizes across 61 studies; unconfounded prompt interventions yielded a nearly identical estimate (b=0.66)."
+        "notes": "Model coefficient summarizes Hedges-g effect sizes across 61 studies; unconfounded prompt interventions yielded a nearly identical estimate (b=0.66).",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       },
       {
         "id": "reminders-vaccine-uptake-2025",
@@ -654,7 +730,11 @@
         "source_ids": [
           "davies2025"
         ],
-        "notes": "Reminder interventions increased vaccination uptake; moderate-certainty network meta-analysis evidence."
+        "notes": "Reminder interventions increased vaccination uptake; moderate-certainty network meta-analysis evidence.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "odds_ratio"
       }
     ]
   },
@@ -689,7 +769,11 @@
         "source_ids": [
           "balliet2011"
         ],
-        "notes": "Medium-to-large positive effect on cooperation. This is not equivalent to legal/administrative sanctions in real-world compliance settings."
+        "notes": "Medium-to-large positive effect on cooperation. This is not equivalent to legal/administrative sanctions in real-world compliance settings.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -727,7 +811,11 @@
         "source_ids": [
           "sheeran2014"
         ],
-        "notes": "Direct target-change evidence. Intention effect was d=0.31 (k=217). Combined increases in risk appraisal, response efficacy, and self-efficacy yielded a larger behavior effect (d=0.45)."
+        "notes": "Direct target-change evidence. Intention effect was d=0.31 (k=217). Combined increases in risk appraisal, response efficacy, and self-efficacy yielded a larger behavior effect (d=0.45).",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -764,7 +852,11 @@
         "source_ids": [
           "sheeran2016"
         ],
-        "notes": "Kept separate from perceived competence despite conceptual overlap."
+        "notes": "Kept separate from perceived competence despite conceptual overlap.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -800,7 +892,11 @@
         "source_ids": [
           "compernolle2019"
         ],
-        "notes": "Interventions using self-monitoring reduced total sedentary time; attribution to self-monitoring alone is limited because some interventions were multicomponent."
+        "notes": "Interventions using self-monitoring reduced total sedentary time; attribution to self-monitoring alone is limited because some interventions were multicomponent.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -838,7 +934,11 @@
         "source_ids": [
           "sheeran2016"
         ],
-        "notes": "Norm subtypes stay explicit and may later split when separate pooled estimates are available."
+        "notes": "Norm subtypes stay explicit and may later split when separate pooled estimates are available.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "smd"
       }
     ]
   },
@@ -876,7 +976,11 @@
         "source_ids": [
           "shushtari2023"
         ],
-        "notes": "Moderate heterogeneity (I2=58.3%). Estimate is domain-specific and should not be generalized to all behaviors without additional syntheses."
+        "notes": "Moderate heterogeneity (I2=58.3%). Estimate is domain-specific and should not be generalized to all behaviors without additional syntheses.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "odds_ratio"
       }
     ]
   },
@@ -911,7 +1015,11 @@
         "source_ids": [
           "birkhaeuer2017"
         ],
-        "notes": "Small association with health behaviors. Authors explicitly note that prospective work is needed; not causal evidence."
+        "notes": "Small association with health behaviors. Authors explicitly note that prospective work is needed; not causal evidence.",
+        "rank_eligible": true,
+        "rank_target": "direct_behavior",
+        "rank_exclusion_reason": "",
+        "rank_metric_group": "correlation"
       }
     ]
   }

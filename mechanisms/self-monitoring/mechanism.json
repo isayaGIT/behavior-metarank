@@ -30,7 +30,11 @@
       "source_ids": [
         "compernolle2019"
       ],
-      "notes": "Interventions using self-monitoring reduced total sedentary time; attribution to self-monitoring alone is limited because some interventions were multicomponent."
+      "notes": "Interventions using self-monitoring reduced total sedentary time; attribution to self-monitoring alone is limited because some interventions were multicomponent.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     }
   ]
 }

@@ -31,7 +31,11 @@
       "source_ids": [
         "davies2025"
       ],
-      "notes": "Affordability interventions improved vaccine uptake. This is not the same as paying a contingent reward; it reduces the cost of action."
+      "notes": "Affordability interventions improved vaccine uptake. This is not the same as paying a contingent reward; it reduces the cost of action.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "odds_ratio"
     }
   ]
 }

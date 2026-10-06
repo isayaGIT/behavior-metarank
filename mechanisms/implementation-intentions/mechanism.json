@@ -30,7 +30,11 @@
       "source_ids": [
         "gollwitzer2006"
       ],
-      "notes": "Medium-to-large effect; review also reports enhanced cue accessibility and more automatic goal-directed responding."
+      "notes": "Medium-to-large effect; review also reports enhanced cue accessibility and more automatic goal-directed responding.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     }
   ]
 }

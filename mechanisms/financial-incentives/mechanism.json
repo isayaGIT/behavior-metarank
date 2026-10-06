@@ -30,7 +30,11 @@
       "source_ids": [
         "giles2014"
       ],
-      "notes": "All behaviors combined; effectiveness tended to attenuate with longer post-intervention follow-up."
+      "notes": "All behaviors combined; effectiveness tended to attenuate with longer post-intervention follow-up.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "risk_ratio"
     },
     {
       "id": "financial-incentives-sustained-2015",
@@ -47,7 +51,11 @@
       "source_ids": [
         "mantzari2015"
       ],
-      "notes": "Effect at up to 18 months from baseline; effects generally weakened after incentive removal."
+      "notes": "Effect at up to 18 months from baseline; effects generally weakened after incentive removal.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "odds_ratio"
     }
   ]
 }

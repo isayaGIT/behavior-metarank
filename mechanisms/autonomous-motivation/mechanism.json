@@ -32,7 +32,11 @@
       "source_ids": [
         "sheeran2021"
       ],
-      "notes": "Behavior effect among tests with significant target engagement; target change itself was d=0.64."
+      "notes": "Behavior effect among tests with significant target engagement; target change itself was d=0.64.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     }
   ]
 }

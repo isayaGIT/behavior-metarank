@@ -15,7 +15,8 @@ LAYERS = ("association", "prospective", "causal", "mediation")
 REQ_MECH = ("id", "name", "family", "definition", "status", "updated_at", "syntheses")
 REQ_SYN = (
     "id", "layer", "outcome", "behavior_domain", "design", "effect_metric",
-    "effect_value", "source_ids", "notes"
+    "effect_value", "source_ids", "notes", "rank_eligible", "rank_target",
+    "rank_exclusion_reason", "rank_metric_group"
 )
 PAPER_FIELDS = [
     "mechanism_id", "source_id", "title", "year", "doi", "url",
@@ -157,7 +158,8 @@ def main() -> None:
                 "mechanism_family": data["family"],
                 **{k: syn.get(k) for k in (
                     "id", "layer", "outcome", "behavior_domain", "design", "effect_metric",
-                    "effect_value", "ci_low", "ci_high", "k", "n", "notes"
+                    "effect_value", "ci_low", "ci_high", "k", "n", "notes",
+                    "rank_eligible", "rank_target", "rank_exclusion_reason", "rank_metric_group"
                 )},
                 "source_ids": ";".join(syn["source_ids"]),
             })
@@ -170,7 +172,8 @@ def main() -> None:
     synth_fields = [
         "mechanism_id", "mechanism_name", "mechanism_family", "id", "layer", "outcome", "behavior_domain",
         "design", "effect_metric", "effect_value", "ci_low", "ci_high",
-        "k", "n", "source_ids", "notes"
+        "k", "n", "source_ids", "notes", "rank_eligible", "rank_target",
+        "rank_exclusion_reason", "rank_metric_group"
     ]
     with (GENERATED / "evidence_matrix.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=synth_fields)

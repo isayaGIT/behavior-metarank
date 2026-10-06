@@ -30,7 +30,11 @@
       "source_ids": [
         "epton2017"
       ],
-      "notes": "384 effect sizes from 141 papers; k here denotes extracted effect sizes."
+      "notes": "384 effect sizes from 141 papers; k here denotes extracted effect sizes.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     }
   ]
 }

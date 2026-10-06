@@ -32,7 +32,11 @@
       "source_ids": [
         "gardner2011"
       ],
-      "notes": "Medium-to-strong association; much of the evidence is observational, so this should not be ranked as causal evidence."
+      "notes": "Medium-to-strong association; much of the evidence is observational, so this should not be ranked as causal evidence.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "correlation"
     }
   ]
 }

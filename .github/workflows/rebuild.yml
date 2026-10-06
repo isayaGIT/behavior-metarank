@@ -6,6 +6,7 @@ on:
     paths:
       - "mechanisms/**"
       - "scripts/build.py"
+      - "scripts/rank.py"
 
 permissions:
   contents: write
@@ -23,7 +24,9 @@ jobs:
           python-version: "3.x"
 
       - name: Rebuild generated evidence
-        run: python3 scripts/build.py
+        run: |
+          python3 scripts/build.py
+          python3 scripts/rank.py
 
       - name: Commit generated outputs if changed
         run: |

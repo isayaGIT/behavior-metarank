@@ -1,0 +1,24 @@
+leaderboard,rank,mechanism_id,mechanism_name,effect_metric,effect_value,outcome,behavior_domain
+causal__smd.csv,1,punishment,Punishment,d,0.7,cooperation,social dilemmas
+causal__smd.csv,2,default-options,Default options,d,0.68,uptake of preselected option / choice,"consumer, environmental, health and other decisions"
+causal__smd.csv,3,prompts-reminders,Prompts and reminders,Hedges_g_model,0.67,pro-environmental behavior,pro-environmental behavior
+causal__smd.csv,4,implementation-intentions,Implementation intentions,d,0.65,goal attainment / behavior,multiple
+causal__smd.csv,5,autonomous-motivation,Autonomous motivation,d,0.47,behavior,health behaviors
+causal__smd.csv,6,self-efficacy,Self-efficacy,d,0.47,behavior,health behaviors
+causal__smd.csv,7,behavioral-attitudes,Behavioral attitudes,d,0.38,behavior,health behaviors
+causal__smd.csv,8,intentions,Behavioral intentions,d,0.36,behavior,multiple
+causal__smd.csv,9,social-norms,Social norms,d,0.36,behavior,health behaviors
+causal__smd.csv,10,goal-setting,Goal setting,d,0.34,behavior,multiple
+causal__smd.csv,11,perceived-competence,Perceived competence,d,0.34,behavior,health behaviors
+causal__smd.csv,12,self-monitoring,Self-monitoring of behavior,Hedges_g,0.32,reduced total sedentary time,sedentary behavior
+causal__smd.csv,13,risk-appraisal,Risk appraisal,d,0.23,behavior,multiple health and risk behaviors
+causal__odds_ratio.csv,1,affordability,Affordability,OR,1.87,vaccination uptake,vaccination
+causal__odds_ratio.csv,2,accessibility,Accessibility / convenience,OR,1.74,vaccination uptake,vaccination
+causal__odds_ratio.csv,3,social-support,Social support,OR,1.66,antiretroviral therapy adherence,HIV treatment adherence
+causal__odds_ratio.csv,4,financial-incentives,Financial incentives,OR,1.53,habitual health behavior change at up to 18 months,"smoking, eating, alcohol, physical activity"
+causal__odds_ratio.csv,5,prompts-reminders,Prompts and reminders,OR,1.36,vaccination uptake,vaccination
+causal__odds_ratio.csv,6,education-information,Education / information provision,OR,1.33,vaccination uptake,vaccination
+causal__risk_ratio.csv,1,financial-incentives,Financial incentives,RR,1.62,healthy behavior change,"smoking, screening/vaccination, physical activity"
+association__correlation.csv,1,habit,Habit / behavioral automaticity,r,0.46,behavior,"nutrition, physical activity, active travel"
+association__correlation.csv,2,anticipated-regret,Anticipated regret,r,0.29,health behavior,health behaviors
+association__correlation.csv,3,trust-healthcare-professional,Trust in healthcare professionals,r,0.14,health behavior,clinical health behaviors

@@ -32,7 +32,11 @@
       "source_ids": [
         "gemmecke2025"
       ],
-      "notes": "Model coefficient summarizes Hedges-g effect sizes across 61 studies; unconfounded prompt interventions yielded a nearly identical estimate (b=0.66)."
+      "notes": "Model coefficient summarizes Hedges-g effect sizes across 61 studies; unconfounded prompt interventions yielded a nearly identical estimate (b=0.66).",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "smd"
     },
     {
       "id": "reminders-vaccine-uptake-2025",
@@ -49,7 +53,11 @@
       "source_ids": [
         "davies2025"
       ],
-      "notes": "Reminder interventions increased vaccination uptake; moderate-certainty network meta-analysis evidence."
+      "notes": "Reminder interventions increased vaccination uptake; moderate-certainty network meta-analysis evidence.",
+      "rank_eligible": true,
+      "rank_target": "direct_behavior",
+      "rank_exclusion_reason": "",
+      "rank_metric_group": "odds_ratio"
     }
   ]
 }

@@ -1,0 +1,2 @@
+rank,mechanism_id,mechanism_name,synthesis_id,effect_metric,effect_value,ci_low,ci_high,outcome,behavior_domain,k,n,source_ids,notes
+1,financial-incentives,Financial incentives,financial-incentives-health-2014,RR,1.62,1.38,1.91,healthy behavior change,"smoking, screening/vaccination, physical activity",16,,giles2014,All behaviors combined; effectiveness tended to attenuate with longer post-intervention follow-up.
