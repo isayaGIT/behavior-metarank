@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+compernolle2019,Effectiveness of interventions using self-monitoring to reduce sedentary behavior in adults: a systematic review and meta-analysis,2019,10.1186/s12966-019-0824-3,https://pubmed.ncbi.nlm.nih.gov/31409357/,systematic review and meta-analysis,causal,sedentary behavior,Hedges_g,0.32,0.14,0.50,19,2800,Total sedentary-time outcome.

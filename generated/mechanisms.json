@@ -1,5 +1,41 @@
 [
   {
+    "id": "anticipated-regret",
+    "name": "Anticipated regret",
+    "family": "anticipated-affect",
+    "aliases": [
+      "anticipated inaction regret",
+      "anticipated action regret",
+      "regret anticipation"
+    ],
+    "definition": "Expected regret about performing or failing to perform a behavior before the behavioral choice occurs.",
+    "related_mechanisms": [
+      "behavioral-attitudes",
+      "intentions"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "anticipated-regret-behavior-2016",
+        "layer": "association",
+        "outcome": "health behavior",
+        "behavior_domain": "health behaviors",
+        "design": "random-effects meta-analysis of 81 studies",
+        "effect_metric": "r",
+        "effect_value": 0.29,
+        "ci_low": null,
+        "ci_high": null,
+        "k": 81,
+        "n": 45618,
+        "source_ids": [
+          "brewer2016"
+        ],
+        "notes": "Association with behavior; anticipated regret was also associated with intention at r=0.50. Not causal evidence."
+      }
+    ]
+  },
+  {
     "id": "autonomous-motivation",
     "name": "Autonomous motivation",
     "family": "motivational-quality",
@@ -70,6 +106,95 @@
           "sheeran2016"
         ],
         "notes": "Only behavior-specific evaluations belong here; broad object attitudes remain separate."
+      }
+    ]
+  },
+  {
+    "id": "default-options",
+    "name": "Default options",
+    "family": "choice-architecture",
+    "aliases": [
+      "defaults",
+      "opt-out defaults",
+      "preselected options"
+    ],
+    "definition": "Choice architectures in which one option is pre-selected and is implemented unless the decision-maker actively chooses another option.",
+    "related_mechanisms": [
+      "social-norms",
+      "prompts-reminders"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "defaults-choice-2019",
+        "layer": "causal",
+        "outcome": "uptake of preselected option / choice",
+        "behavior_domain": "consumer, environmental, health and other decisions",
+        "design": "meta-analysis of 58 default studies",
+        "effect_metric": "d",
+        "effect_value": 0.68,
+        "ci_low": 0.53,
+        "ci_high": 0.83,
+        "k": 58,
+        "n": 73675,
+        "source_ids": [
+          "jachimowicz2019"
+        ],
+        "notes": "Substantial heterogeneity; three-level model estimate was d+=0.63 [0.47,0.80]."
+      }
+    ]
+  },
+  {
+    "id": "financial-incentives",
+    "name": "Financial incentives",
+    "family": "material-incentives",
+    "aliases": [
+      "monetary incentives",
+      "financial rewards",
+      "contingent payments"
+    ],
+    "definition": "Material monetary rewards contingent on performing a target behavior or achieving a target outcome.",
+    "related_mechanisms": [
+      "rewards",
+      "goal-setting"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "financial-incentives-health-2014",
+        "layer": "causal",
+        "outcome": "healthy behavior change",
+        "behavior_domain": "smoking, screening/vaccination, physical activity",
+        "design": "systematic review and meta-analysis of controlled incentive interventions",
+        "effect_metric": "RR",
+        "effect_value": 1.62,
+        "ci_low": 1.38,
+        "ci_high": 1.91,
+        "k": 16,
+        "n": null,
+        "source_ids": [
+          "giles2014"
+        ],
+        "notes": "All behaviors combined; effectiveness tended to attenuate with longer post-intervention follow-up."
+      },
+      {
+        "id": "financial-incentives-sustained-2015",
+        "layer": "causal",
+        "outcome": "habitual health behavior change at up to 18 months",
+        "behavior_domain": "smoking, eating, alcohol, physical activity",
+        "design": "systematic review and random-effects meta-analysis of adult randomized trials",
+        "effect_metric": "OR",
+        "effect_value": 1.53,
+        "ci_low": 1.05,
+        "ci_high": 2.23,
+        "k": 34,
+        "n": null,
+        "source_ids": [
+          "mantzari2015"
+        ],
+        "notes": "Effect at up to 18 months from baseline; effects generally weakened after incentive removal."
       }
     ]
   },
@@ -332,6 +457,44 @@
     ]
   },
   {
+    "id": "prompts-reminders",
+    "name": "Prompts and reminders",
+    "family": "attention-and-cueing",
+    "aliases": [
+      "prompts",
+      "reminders",
+      "prompts/cues",
+      "behavioral reminders"
+    ],
+    "definition": "External visual, verbal, digital, or contextual cues that draw attention to a target behavior at a relevant moment.",
+    "related_mechanisms": [
+      "implementation-intentions",
+      "habit",
+      "self-monitoring"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "prompts-peb-2025",
+        "layer": "causal",
+        "outcome": "pro-environmental behavior",
+        "behavior_domain": "pro-environmental behavior",
+        "design": "pre-registered multilevel meta-analysis of prompt interventions",
+        "effect_metric": "Hedges_g_model",
+        "effect_value": 0.67,
+        "ci_low": 0.44,
+        "ci_high": 0.9,
+        "k": 114,
+        "n": null,
+        "source_ids": [
+          "gemmecke2025"
+        ],
+        "notes": "Model coefficient summarizes Hedges-g effect sizes across 61 studies; unconfounded prompt interventions yielded a nearly identical estimate (b=0.66)."
+      }
+    ]
+  },
+  {
     "id": "self-efficacy",
     "name": "Self-efficacy",
     "family": "capability-beliefs",
@@ -365,6 +528,42 @@
           "sheeran2016"
         ],
         "notes": "Kept separate from perceived competence despite conceptual overlap."
+      }
+    ]
+  },
+  {
+    "id": "self-monitoring",
+    "name": "Self-monitoring of behavior",
+    "family": "self-regulation",
+    "aliases": [
+      "behavioral self-monitoring",
+      "self tracking",
+      "self-observation"
+    ],
+    "definition": "Systematically observing or recording one's own target behavior in order to make behavior salient and support regulation.",
+    "related_mechanisms": [
+      "goal-setting",
+      "feedback"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "self-monitoring-sedentary-2019",
+        "layer": "causal",
+        "outcome": "reduced total sedentary time",
+        "behavior_domain": "sedentary behavior",
+        "design": "systematic review and random-effects meta-analysis of 19 randomized intervention studies using self-monitoring",
+        "effect_metric": "Hedges_g",
+        "effect_value": 0.32,
+        "ci_low": 0.14,
+        "ci_high": 0.5,
+        "k": 19,
+        "n": 2800,
+        "source_ids": [
+          "compernolle2019"
+        ],
+        "notes": "Interventions using self-monitoring reduced total sedentary time; attribution to self-monitoring alone is limited because some interventions were multicomponent."
       }
     ]
   },
@@ -403,6 +602,44 @@
           "sheeran2016"
         ],
         "notes": "Norm subtypes stay explicit and may later split when separate pooled estimates are available."
+      }
+    ]
+  },
+  {
+    "id": "social-support",
+    "name": "Social support",
+    "family": "social-resources",
+    "aliases": [
+      "social support intervention",
+      "peer support",
+      "informational support",
+      "emotional support",
+      "tangible support"
+    ],
+    "definition": "Interpersonal resources that provide informational, emotional, affirmational, or tangible assistance relevant to performing a target behavior.",
+    "related_mechanisms": [
+      "social-norms",
+      "prompts-reminders"
+    ],
+    "status": "active",
+    "updated_at": "2026-10-06",
+    "syntheses": [
+      {
+        "id": "social-support-art-adherence-2023",
+        "layer": "causal",
+        "outcome": "antiretroviral therapy adherence",
+        "behavior_domain": "HIV treatment adherence",
+        "design": "systematic review and random-effects meta-analysis of randomized controlled trials",
+        "effect_metric": "OR",
+        "effect_value": 1.66,
+        "ci_low": 1.24,
+        "ci_high": 2.22,
+        "k": 17,
+        "n": 4110,
+        "source_ids": [
+          "shushtari2023"
+        ],
+        "notes": "Moderate heterogeneity (I2=58.3%). Estimate is domain-specific and should not be generalized to all behaviors without additional syntheses."
       }
     ]
   }

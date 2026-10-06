@@ -1,0 +1,36 @@
+{
+  "id": "self-monitoring",
+  "name": "Self-monitoring of behavior",
+  "family": "self-regulation",
+  "aliases": [
+    "behavioral self-monitoring",
+    "self tracking",
+    "self-observation"
+  ],
+  "definition": "Systematically observing or recording one's own target behavior in order to make behavior salient and support regulation.",
+  "related_mechanisms": [
+    "goal-setting",
+    "feedback"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "self-monitoring-sedentary-2019",
+      "layer": "causal",
+      "outcome": "reduced total sedentary time",
+      "behavior_domain": "sedentary behavior",
+      "design": "systematic review and random-effects meta-analysis of 19 randomized intervention studies using self-monitoring",
+      "effect_metric": "Hedges_g",
+      "effect_value": 0.32,
+      "ci_low": 0.14,
+      "ci_high": 0.5,
+      "k": 19,
+      "n": 2800,
+      "source_ids": [
+        "compernolle2019"
+      ],
+      "notes": "Interventions using self-monitoring reduced total sedentary time; attribution to self-monitoring alone is limited because some interventions were multicomponent."
+    }
+  ]
+}

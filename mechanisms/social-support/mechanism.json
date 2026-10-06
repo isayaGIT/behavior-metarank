@@ -1,0 +1,38 @@
+{
+  "id": "social-support",
+  "name": "Social support",
+  "family": "social-resources",
+  "aliases": [
+    "social support intervention",
+    "peer support",
+    "informational support",
+    "emotional support",
+    "tangible support"
+  ],
+  "definition": "Interpersonal resources that provide informational, emotional, affirmational, or tangible assistance relevant to performing a target behavior.",
+  "related_mechanisms": [
+    "social-norms",
+    "prompts-reminders"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "social-support-art-adherence-2023",
+      "layer": "causal",
+      "outcome": "antiretroviral therapy adherence",
+      "behavior_domain": "HIV treatment adherence",
+      "design": "systematic review and random-effects meta-analysis of randomized controlled trials",
+      "effect_metric": "OR",
+      "effect_value": 1.66,
+      "ci_low": 1.24,
+      "ci_high": 2.22,
+      "k": 17,
+      "n": 4110,
+      "source_ids": [
+        "shushtari2023"
+      ],
+      "notes": "Moderate heterogeneity (I2=58.3%). Estimate is domain-specific and should not be generalized to all behaviors without additional syntheses."
+    }
+  ]
+}

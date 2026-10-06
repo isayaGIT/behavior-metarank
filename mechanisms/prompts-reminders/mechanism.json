@@ -1,0 +1,38 @@
+{
+  "id": "prompts-reminders",
+  "name": "Prompts and reminders",
+  "family": "attention-and-cueing",
+  "aliases": [
+    "prompts",
+    "reminders",
+    "prompts/cues",
+    "behavioral reminders"
+  ],
+  "definition": "External visual, verbal, digital, or contextual cues that draw attention to a target behavior at a relevant moment.",
+  "related_mechanisms": [
+    "implementation-intentions",
+    "habit",
+    "self-monitoring"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "prompts-peb-2025",
+      "layer": "causal",
+      "outcome": "pro-environmental behavior",
+      "behavior_domain": "pro-environmental behavior",
+      "design": "pre-registered multilevel meta-analysis of prompt interventions",
+      "effect_metric": "Hedges_g_model",
+      "effect_value": 0.67,
+      "ci_low": 0.44,
+      "ci_high": 0.9,
+      "k": 114,
+      "n": null,
+      "source_ids": [
+        "gemmecke2025"
+      ],
+      "notes": "Model coefficient summarizes Hedges-g effect sizes across 61 studies; unconfounded prompt interventions yielded a nearly identical estimate (b=0.66)."
+    }
+  ]
+}

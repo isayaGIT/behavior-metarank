@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+jachimowicz2019,When and why defaults influence decisions: a meta-analysis of default effects,2019,10.1017/bpp.2018.43,https://doi.org/10.1017/bpp.2018.43,meta-analysis,causal,multiple decision domains,d,0.68,0.53,0.83,58,73675,Preselected default versus active opt-in choice.

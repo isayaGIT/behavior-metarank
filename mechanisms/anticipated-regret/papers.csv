@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+brewer2016,Anticipated Regret and Health Behavior: A Meta-Analysis,2016,10.1037/hea0000294,https://pubmed.ncbi.nlm.nih.gov/27607136/,meta-analysis,association,health behaviors,r,0.29,,,81,45618,Association of anticipated regret with health behavior.

@@ -1,0 +1,36 @@
+{
+  "id": "default-options",
+  "name": "Default options",
+  "family": "choice-architecture",
+  "aliases": [
+    "defaults",
+    "opt-out defaults",
+    "preselected options"
+  ],
+  "definition": "Choice architectures in which one option is pre-selected and is implemented unless the decision-maker actively chooses another option.",
+  "related_mechanisms": [
+    "social-norms",
+    "prompts-reminders"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "defaults-choice-2019",
+      "layer": "causal",
+      "outcome": "uptake of preselected option / choice",
+      "behavior_domain": "consumer, environmental, health and other decisions",
+      "design": "meta-analysis of 58 default studies",
+      "effect_metric": "d",
+      "effect_value": 0.68,
+      "ci_low": 0.53,
+      "ci_high": 0.83,
+      "k": 58,
+      "n": 73675,
+      "source_ids": [
+        "jachimowicz2019"
+      ],
+      "notes": "Substantial heterogeneity; three-level model estimate was d+=0.63 [0.47,0.80]."
+    }
+  ]
+}

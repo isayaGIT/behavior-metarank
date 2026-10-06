@@ -1,0 +1,53 @@
+{
+  "id": "financial-incentives",
+  "name": "Financial incentives",
+  "family": "material-incentives",
+  "aliases": [
+    "monetary incentives",
+    "financial rewards",
+    "contingent payments"
+  ],
+  "definition": "Material monetary rewards contingent on performing a target behavior or achieving a target outcome.",
+  "related_mechanisms": [
+    "rewards",
+    "goal-setting"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "financial-incentives-health-2014",
+      "layer": "causal",
+      "outcome": "healthy behavior change",
+      "behavior_domain": "smoking, screening/vaccination, physical activity",
+      "design": "systematic review and meta-analysis of controlled incentive interventions",
+      "effect_metric": "RR",
+      "effect_value": 1.62,
+      "ci_low": 1.38,
+      "ci_high": 1.91,
+      "k": 16,
+      "n": null,
+      "source_ids": [
+        "giles2014"
+      ],
+      "notes": "All behaviors combined; effectiveness tended to attenuate with longer post-intervention follow-up."
+    },
+    {
+      "id": "financial-incentives-sustained-2015",
+      "layer": "causal",
+      "outcome": "habitual health behavior change at up to 18 months",
+      "behavior_domain": "smoking, eating, alcohol, physical activity",
+      "design": "systematic review and random-effects meta-analysis of adult randomized trials",
+      "effect_metric": "OR",
+      "effect_value": 1.53,
+      "ci_low": 1.05,
+      "ci_high": 2.23,
+      "k": 34,
+      "n": null,
+      "source_ids": [
+        "mantzari2015"
+      ],
+      "notes": "Effect at up to 18 months from baseline; effects generally weakened after incentive removal."
+    }
+  ]
+}

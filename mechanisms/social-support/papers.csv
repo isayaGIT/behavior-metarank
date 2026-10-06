@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+shushtari2023,Effect of Social Support Interventions on Adherence to Antiretroviral Therapy Among People Living with HIV: A Systematic Review and Meta-Analysis,2023,10.1007/s10461-022-03894-0,https://pubmed.ncbi.nlm.nih.gov/36318421/,systematic review and meta-analysis,causal,HIV treatment adherence,OR,1.66,1.24,2.22,17,4110,Overall RCT estimate; I2=58.3%.

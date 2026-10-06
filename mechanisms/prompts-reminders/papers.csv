@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+gemmecke2025,Prompting change: A systematic review and meta-analysis of the (un)confounded effects of prompts on pro-environmental behavior,2025,10.1111/apps.70003,https://doi.org/10.1111/apps.70003,systematic review and multilevel meta-analysis,causal,pro-environmental behavior,Hedges_g_model,0.67,0.44,0.90,114,,61 studies; model coefficient over Hedges-g effect sizes. Unconfounded estimate b=0.66.
