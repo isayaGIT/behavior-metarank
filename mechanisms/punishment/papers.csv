@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+balliet2011,"Reward, punishment, and cooperation: a meta-analysis",2011,10.1037/a0023489,https://pubmed.ncbi.nlm.nih.gov/21574679/,meta-analysis,causal,social dilemmas,d,0.70,0.60,0.80,126,,Punishment-to-cooperation effect; 126 independent/nonredundant effects in the reported analysis.

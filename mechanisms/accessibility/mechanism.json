@@ -1,0 +1,37 @@
+{
+  "id": "accessibility",
+  "name": "Accessibility / convenience",
+  "family": "structural-opportunity",
+  "aliases": [
+    "access",
+    "convenience",
+    "service accessibility",
+    "physical access"
+  ],
+  "definition": "Reducing practical, geographic, scheduling, or delivery barriers so that a target behavior is easier to perform.",
+  "related_mechanisms": [
+    "affordability",
+    "prompts-reminders"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "accessibility-vaccine-uptake-2025",
+      "layer": "causal",
+      "outcome": "vaccination uptake",
+      "behavior_domain": "vaccination",
+      "design": "network meta-analysis of randomized recipient-focused vaccine uptake interventions",
+      "effect_metric": "OR",
+      "effect_value": 1.74,
+      "ci_low": 1.35,
+      "ci_high": 2.26,
+      "k": 223,
+      "n": 6243118,
+      "source_ids": [
+        "davies2025"
+      ],
+      "notes": "Access interventions improved vaccine uptake. Accessibility is kept separate from affordability because the source network meta-analysis estimates them independently."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "trust-healthcare-professional",
+  "name": "Trust in healthcare professionals",
+  "family": "relational-trust",
+  "aliases": [
+    "patient trust",
+    "trust in physician",
+    "trust in healthcare professional"
+  ],
+  "definition": "A patient's trust in a healthcare professional or clinician within a treatment relationship.",
+  "related_mechanisms": [
+    "social-support"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "trust-health-behavior-2017",
+      "layer": "association",
+      "outcome": "health behavior",
+      "behavior_domain": "clinical health behaviors",
+      "design": "random-effects meta-analysis of observational studies",
+      "effect_metric": "r",
+      "effect_value": 0.14,
+      "ci_low": 0.1,
+      "ci_high": 0.19,
+      "k": null,
+      "n": null,
+      "source_ids": [
+        "birkhaeuer2017"
+      ],
+      "notes": "Small association with health behaviors. Authors explicitly note that prospective work is needed; not causal evidence."
+    }
+  ]
+}

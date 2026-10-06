@@ -1,0 +1,2 @@
+source_id,title,year,doi,url,study_type,evidence_layer,behavior_domain,effect_metric,effect_value,ci_low,ci_high,k,n,notes
+birkhaeuer2017,Trust in the health care professional and health outcome: A meta-analysis,2017,10.1371/journal.pone.0170988,https://pubmed.ncbi.nlm.nih.gov/28170443/,meta-analysis,association,clinical health behaviors,r,0.14,0.10,0.19,,,Subgroup association between trust and patient health behaviors.

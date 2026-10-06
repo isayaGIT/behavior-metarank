@@ -1,0 +1,36 @@
+{
+  "id": "fear-appeals",
+  "name": "Fear appeals",
+  "family": "persuasive-communication",
+  "aliases": [
+    "fear-based messages",
+    "threat appeals",
+    "fear messaging"
+  ],
+  "definition": "Persuasive communications that deliberately depict or evoke fear or threat to influence attitudes, intentions, or behavior.",
+  "related_mechanisms": [
+    "risk-appraisal",
+    "self-efficacy"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "fear-appeals-composite-2015",
+      "layer": "causal",
+      "outcome": "attitude / intention / behavior composite",
+      "behavior_domain": "predominantly health and safety behaviors",
+      "design": "random-effects meta-analysis of experimental fear-appeal studies",
+      "effect_metric": "d",
+      "effect_value": 0.29,
+      "ci_low": 0.22,
+      "ci_high": 0.35,
+      "k": 248,
+      "n": 27372,
+      "source_ids": [
+        "tannenbaum2015"
+      ],
+      "notes": "Primary reported effect is a composite across attitudes, intentions, and behaviors, so it must not be ranked as a behavior-only effect without extracting the behavior subgroup."
+    }
+  ]
+}

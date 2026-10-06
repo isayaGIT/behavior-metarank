@@ -1,0 +1,38 @@
+{
+  "id": "risk-appraisal",
+  "name": "Risk appraisal",
+  "family": "risk-and-coping-appraisal",
+  "aliases": [
+    "risk perception",
+    "perceived severity",
+    "anticipatory emotion",
+    "anticipated emotion"
+  ],
+  "definition": "A prospective appraisal of threat or harm, including perceived risk, severity, anticipatory emotion, and anticipated emotion.",
+  "related_mechanisms": [
+    "self-efficacy",
+    "anticipated-regret",
+    "fear-appeals"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "risk-appraisal-change-behavior-2014",
+      "layer": "causal",
+      "outcome": "behavior",
+      "behavior_domain": "multiple health and risk behaviors",
+      "design": "meta-analysis of experiments that significantly increased risk appraisal before measuring behavior",
+      "effect_metric": "d",
+      "effect_value": 0.23,
+      "ci_low": null,
+      "ci_high": null,
+      "k": 93,
+      "n": null,
+      "source_ids": [
+        "sheeran2014"
+      ],
+      "notes": "Direct target-change evidence. Intention effect was d=0.31 (k=217). Combined increases in risk appraisal, response efficacy, and self-efficacy yielded a larger behavior effect (d=0.45)."
+    }
+  ]
+}

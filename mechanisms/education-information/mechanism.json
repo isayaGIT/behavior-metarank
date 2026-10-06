@@ -1,0 +1,37 @@
+{
+  "id": "education-information",
+  "name": "Education / information provision",
+  "family": "information-and-knowledge",
+  "aliases": [
+    "education",
+    "information provision",
+    "educational information",
+    "health education"
+  ],
+  "definition": "Providing factual or explanatory information intended to improve understanding relevant to a target behavior.",
+  "related_mechanisms": [
+    "risk-appraisal",
+    "behavioral-attitudes"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "education-information-vaccine-uptake-2025",
+      "layer": "causal",
+      "outcome": "vaccination uptake",
+      "behavior_domain": "vaccination",
+      "design": "network meta-analysis of randomized recipient-focused vaccine uptake interventions",
+      "effect_metric": "OR",
+      "effect_value": 1.33,
+      "ci_low": 1.19,
+      "ci_high": 1.49,
+      "k": 223,
+      "n": 6243118,
+      "source_ids": [
+        "davies2025"
+      ],
+      "notes": "Education interventions improved vaccine uptake in this domain. This is an intervention strategy, not proof that measured knowledge itself is the causal mediator."
+    }
+  ]
+}

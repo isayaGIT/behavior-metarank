@@ -1,0 +1,35 @@
+{
+  "id": "punishment",
+  "name": "Punishment",
+  "family": "consequences-and-sanctions",
+  "aliases": [
+    "punitive incentives",
+    "punishment sanctions",
+    "negative sanctions"
+  ],
+  "definition": "Imposed negative consequences contingent on noncooperation or undesired behavior.",
+  "related_mechanisms": [
+    "financial-incentives"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "punishment-cooperation-2011",
+      "layer": "causal",
+      "outcome": "cooperation",
+      "behavior_domain": "social dilemmas",
+      "design": "meta-analysis of experimental social-dilemma studies",
+      "effect_metric": "d",
+      "effect_value": 0.7,
+      "ci_low": 0.6,
+      "ci_high": 0.8,
+      "k": 126,
+      "n": null,
+      "source_ids": [
+        "balliet2011"
+      ],
+      "notes": "Medium-to-large positive effect on cooperation. This is not equivalent to legal/administrative sanctions in real-world compliance settings."
+    }
+  ]
+}

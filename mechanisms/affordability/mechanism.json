@@ -1,0 +1,37 @@
+{
+  "id": "affordability",
+  "name": "Affordability",
+  "family": "economic-opportunity",
+  "aliases": [
+    "cost reduction",
+    "subsidy",
+    "reduced out-of-pocket cost",
+    "financial access"
+  ],
+  "definition": "Reducing the direct financial cost of performing or obtaining the target behavior or service.",
+  "related_mechanisms": [
+    "accessibility",
+    "financial-incentives"
+  ],
+  "status": "active",
+  "updated_at": "2026-10-06",
+  "syntheses": [
+    {
+      "id": "affordability-vaccine-uptake-2025",
+      "layer": "causal",
+      "outcome": "vaccination uptake",
+      "behavior_domain": "vaccination",
+      "design": "network meta-analysis of randomized recipient-focused vaccine uptake interventions",
+      "effect_metric": "OR",
+      "effect_value": 1.87,
+      "ci_low": 1.47,
+      "ci_high": 2.4,
+      "k": 223,
+      "n": 6243118,
+      "source_ids": [
+        "davies2025"
+      ],
+      "notes": "Affordability interventions improved vaccine uptake. This is not the same as paying a contingent reward; it reduces the cost of action."
+    }
+  ]
+}
