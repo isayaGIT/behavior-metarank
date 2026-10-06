@@ -1,4 +1,4 @@
-# Behavior Mechanism Evidence
+# Behavior MetaRank
 
 An open, machine-readable evidence base for psychological and behavioral mechanisms related to human behavior.
 
