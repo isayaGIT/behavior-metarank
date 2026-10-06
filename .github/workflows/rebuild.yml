@@ -36,6 +36,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated/ paper/manuscript.md
+          git add generated/ paper/manuscript.md RANKING.md
           git commit -m "Auto-rebuild evidence outputs"
           git push
