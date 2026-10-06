@@ -11,3 +11,7 @@ Do not treat the r = 0.55 identity–habit estimate as an identity–behavior es
 ## Repository role
 
 Identity is included as the first worked example because it motivated the project; it is not a privileged candidate and does not constrain discovery of other mechanisms.
+
+## Project
+
+This mechanism is maintained within **Behavior MetaRank**, the repository's living cross-mechanism ranking system.
